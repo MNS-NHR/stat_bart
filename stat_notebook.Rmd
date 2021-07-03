@@ -42,6 +42,8 @@ pal <- wes_palette("Zissou1", 100, type = "continuous")
 #SVM pacakge
 library(e1071)
 
+# read nifti
+library(oro.nifti)
 ```
 
 
@@ -166,7 +168,7 @@ ggsave(filename='assets/figure/post_g.png',plot = plot, device = 'png',units = '
 
 Following the guide from https://www.datacamp.com/community/tutorials/support-vector-machines-r
 
-```{r SVM make model using post}
+```{r SVM make model using post, eval=false}
 
 x <- as.matrix(post[,-c(1:2)])
 y <- as.factor(post$Group)  
@@ -181,7 +183,7 @@ detection <- mean(levels(post.predict)[post.predict] == levels(dat$y)[dat$y])
 print(glue('Prediction of Post using Post is {detection*100} %'))
 ```
 
-```{r SVM predict pre}
+```{r SVM predict pre, eval=false}
 
 x <- as.matrix(pre[,-c(1:2)])
 y <- as.factor(pre$Group)  
@@ -198,7 +200,7 @@ print(glue('Prediction of Pre using Post is {detection*100} %'))
 
 Prediction isn't really above change level (~ 50%)
 
-```{r SVM predict peri}
+```{r SVM predict peri, eval=false}
 
 x <- as.matrix(peri[,-c(1:2)])
 y<- peri$Group
@@ -216,3 +218,90 @@ print(glue('Prediction of Peri using Post is {detection*100} %'))
 
 ```
 Prediction isn't really above change level (~ 50%)
+
+
+## Voxelwise analysis
+```{r peri stats, eval=false}
+template <- readNIfTI('assets/nifti/template/template_50.nii.gz')
+
+design <- read_csv('assets/nifti/peri/design.csv')
+img <- readNIfTI('assets/nifti/peri/heatmaps_rs_smooth.nii.gz')
+mask_img <- readNIfTI('assets/nifti/peri/mask_corr.nii.gz')
+stat_img <- mask_img
+stat_img_lower <- mask_img
+stat_img_upper <- mask_img
+
+
+mask_bool <- which(mask_img[,,] == 1,arr.ind = TRUE)
+
+for(iter  in 1:dim(mask_bool)[1]){
+  
+i<-  mask_bool[iter,]
+g <- hedges_g(img[i[1],i[2],i[3],] ~ design$Group)
+stat_img[i[1],i[2],i[3]] <- g$Hedges_g
+stat_img_lower[i[1],i[2],i[3]] <- g$CI_low
+stat_img_upper[i[1],i[2],i[3]] <- g$CI_high
+}
+
+writeNIfTI(stat_img,'assets/nifti/peri/peri_effect')
+writeNIfTI(stat_img_lower,'assets/nifti/peri/peri_effect_lower')
+writeNIfTI(stat_img_upper,'assets/nifti/peri/peri_effect_higher')
+
+```
+
+```{r post stats, eval=false}
+template <- readNIfTI('assets/nifti/template/template_50.nii.gz')
+
+design <- read_csv('assets/nifti/post/design.csv')
+img <- readNIfTI('assets/nifti/post/heatmaps_rs_smooth.nii.gz')
+mask_img <- readNIfTI('assets/nifti/post/mask_corr.nii.gz')
+stat_img <- mask_img
+stat_img_lower <- mask_img
+stat_img_upper <- mask_img
+
+
+mask_bool <- which(mask_img[,,] == 1,arr.ind = TRUE)
+
+for(iter  in 1:dim(mask_bool)[1]){
+  
+i<-  mask_bool[iter,]
+g <- hedges_g(img[i[1],i[2],i[3],] ~ design$Group)
+stat_img[i[1],i[2],i[3]] <- g$Hedges_g
+stat_img_lower[i[1],i[2],i[3]] <- g$CI_low
+stat_img_upper[i[1],i[2],i[3]] <- g$CI_high
+}
+
+writeNIfTI(stat_img,'assets/nifti/post/post_effect')
+writeNIfTI(stat_img_lower,'assets/nifti/post/post_effect_lower')
+writeNIfTI(stat_img_upper,'assets/nifti/post/post_effect_higher')
+
+```
+
+
+```{r pre stats, eval=false}
+template <- readNIfTI('assets/nifti/template/template_50.nii.gz')
+
+design <- read_csv('assets/nifti/pre/design.csv')
+img <- readNIfTI('assets/nifti/pre/heatmaps_rs_smooth.nii.gz')
+mask_img <- readNIfTI('assets/nifti/pre/mask_corr.nii.gz')
+stat_img <- mask_img
+stat_img_lower <- mask_img
+stat_img_upper <- mask_img
+
+
+mask_bool <- which(mask_img[,,] == 1,arr.ind = TRUE)
+
+for(iter  in 1:dim(mask_bool)[1]){
+  
+i<-  mask_bool[iter,]
+g <- hedges_g(img[i[1],i[2],i[3],] ~ design$Group)
+stat_img[i[1],i[2],i[3]] <- g$Hedges_g
+stat_img_lower[i[1],i[2],i[3]] <- g$CI_low
+stat_img_upper[i[1],i[2],i[3]] <- g$CI_high
+}
+
+writeNIfTI(stat_img,'assets/nifti/pre/pre_effect')
+writeNIfTI(stat_img_lower,'assets/nifti/pre/pre_effect_lower')
+writeNIfTI(stat_img_upper,'assets/nifti/pre/pre_effect_higher')
+
+```
