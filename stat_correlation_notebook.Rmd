@@ -3,16 +3,28 @@ title: "Stats for Bart"
 author: "Joanes Grandjean"
 date: "9/28/2021"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
 ---
 
-```{r load libraries, echo=FALSE}
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, 
+                      warning = FALSE, 
+                      tidy = TRUE, 
+                      eval = TRUE, 
+                      include = TRUE, 
+                      message = TRUE, 
+                      results = "hold")
+options(knitr.kable.NA = '')
+
+```
+
+```{r load libraries, echo=FALSE, message = FALSE}
 #load libraries
 library(effectsize)
 library(tidyverse)
-library(knitr)
 ```
 
 ```{r pre analysis}
