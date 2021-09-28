@@ -1,0 +1,67 @@
+---
+title: "Stats for Bart"
+author: "Joanes Grandjean"
+date: "9/28/2021"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r load libraries, echo=FALSE}
+#load libraries
+library(effectsize)
+library(tidyverse)
+library(knitr)
+```
+
+```{r pre analysis}
+df<-read_csv('assets/table/pre_correlation_vector.csv')
+print("PRE Sus vs. Res, DMN-DMN")
+hedges_g(df$Sus_DMN_DMN, df$Res_DMN_DMN)
+print("PRE Sus vs. Res, DMN-SN")
+hedges_g(df$Sus_DMN_SN, df$Res_DMN_SN)
+print("PRE Sus vs. Res, DMN-LCN")
+hedges_g(df$Sus_DMN_LCN, df$Res_DMN_LCN)
+print("PRE Sus vs. Res, SN-SN")
+hedges_g(df$Sus_SN_SN, df$Res_SN_SN)
+print("PRE Sus vs. Res, SN-LCN")
+hedges_g(df$Sus_SN_LCN, df$Res_SN_LCN)
+print("PRE Sus vs. Res, LCN-LCN")
+hedges_g(df$Sus_LCN_LCN, df$Res_LCN_LCN)
+```
+
+```{r peri analysis}
+
+df<-read_csv('assets/table/peri_correlation_vector.csv')
+print("PERI Sus vs. Res, DMN-DMN")
+hedges_g(df$Sus_DMN_DMN, df$Res_DMN_DMN)
+print("PERI Sus vs. Res, DMN-SN")
+hedges_g(df$Sus_DMN_SN, df$Res_DMN_SN)
+print("PERI Sus vs. Res, DMN-LCN")
+hedges_g(df$Sus_DMN_LCN, df$Res_DMN_LCN)
+print("PERI Sus vs. Res, SN-SN")
+hedges_g(df$Sus_SN_SN, df$Res_SN_SN)
+print("PERI Sus vs. Res, SN-LCN")
+hedges_g(df$Sus_SN_LCN, df$Res_SN_LCN)
+print("PERI Sus vs. Res, LCN-LCN")
+hedges_g(df$Sus_LCN_LCN, df$Res_LCN_LCN)
+```
+
+
+```{r post analysis}
+
+df<-read_csv('assets/table/post_correlation_vector.csv')
+print("POST Sus vs. Res, DMN-DMN")
+hedges_g(df$Sus_DMN_DMN, df$Res_DMN_DMN)
+print("POST Sus vs. Res, DMN-SN")
+hedges_g(df$Sus_DMN_SN, df$Res_DMN_SN)
+print("POST Sus vs. Res, DMN-LCN")
+hedges_g(df$Sus_DMN_LCN, df$Res_DMN_LCN)
+print("POST Sus vs. Res, SN-SN")
+hedges_g(df$Sus_SN_SN, df$Res_SN_SN)
+print("POST Sus vs. Res, SN-LCN")
+hedges_g(df$Sus_SN_LCN, df$Res_SN_LCN)
+print("POST Sus vs. Res, LCN-LCN")
+hedges_g(df$Sus_LCN_LCN, df$Res_LCN_LCN)
+```
