@@ -1,0 +1,91 @@
+---
+title: "voxelwise to ROI"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+#General utility packages
+library(tidyverse)
+library(glue)
+
+# read nifti
+library(oro.nifti)
+
+library(effectsize)
+
+#Plot pacakges
+library(wesanderson)
+pal <- wes_palette("Zissou1", 100, type = "continuous")
+
+```
+
+```{r}
+
+
+# read the roi and atlas file. 
+roi.list<-read.csv2('assets/script/Regions_IDs_split.csv',sep=';')
+
+design <- read_csv('assets/nifti/peri/design.csv')
+img <- readNIfTI('assets/nifti/peri/heatmaps_rs_smooth.nii.gz')
+atlas_img<-readNIfTI('assets/script/rs_atlas_split.nii.gz')
+mask_img <- readNIfTI('assets/nifti/peri/mask_corr.nii.gz')
+
+atlas_img<-atlas_img*mask_img
+
+df <- data.frame(name=character(),
+                 acronym=character(),
+                 g=double(), 
+                 lower=double(), 
+                 upper=double(),
+                 stringsAsFactors=FALSE) 
+ii<-0
+
+# loop through all rois
+for(i in 1:dim(roi.list)[1]){
+  ID<-roi.list[i,'id']
+  acronym<-roi.list[i,'acronym']
+  name<-roi.list[i,'name']
+  selectROI<-which(atlas_img[,,] == ID)
+  
+  #if not empty list of voxels, get the sum for each mouse
+  if(length(selectROI)>0){
+    print(acronym)
+    tmp_sumlist<-c()
+    for(j in 1:dim(img)[4]){
+      tmp<-img[,,,j]
+      tmp_sumlist[j]<-sum(tmp[selectROI])
+    }
+    
+    g <- hedges_g(tmp_sumlist~ design$Group)
+    df[ii,'name']<-name
+    df[ii,'acronym']<-acronym
+    df[ii,'g']<-g$Hedges_g
+    df[ii,'lower']<-g$CI_low
+    df[ii,'upper']<-g$CI_high
+    ii<-ii+1
+  }
+  
+  
+}
+
+
+plot <- df %>% 
+  mutate(acronym = fct_reorder(acronym, g, min)) %>% 
+  ggplot(aes(x=acronym, y=g, colour=g))+
+  geom_hline(yintercept = 0, linetype='dashed')+
+  geom_pointrange(aes(ymin=lower, ymax=upper))+ 
+  theme_minimal()+
+  theme(text = element_text(size = 6), axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none")+
+  scale_color_gradientn(colours = pal)+
+  labs(y = "PTSD-like > resilient [Hedge\'s g]", title = 'Peri condition', x='')
+
+
+df %>% arrange(g) %>% write_csv('assets/script/peri_roi.csv')  
+
+```
+
