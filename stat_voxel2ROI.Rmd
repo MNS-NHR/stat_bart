@@ -30,10 +30,11 @@ pal <- wes_palette("Zissou1", 100, type = "continuous")
 # read the roi and atlas file. 
 roi.list<-read.csv2('assets/script/Regions_IDs_split.csv',sep=';')
 
-design <- read_csv('assets/nifti/peri/design.csv')
-img <- readNIfTI('assets/nifti/peri/heatmaps_rs_smooth.nii.gz')
+design <- read_csv('assets/nifti/pre/design.csv')
+img <- readNIfTI('assets/nifti/pre/heatmaps_rs_smooth.nii.gz')
 atlas_img<-readNIfTI('assets/script/rs_atlas_split.nii.gz')
-mask_img <- readNIfTI('assets/nifti/peri/mask_corr.nii.gz')
+mask_img <- readNIfTI('assets/nifti/pre/mask_corr.nii.gz')
+contrast_img<-mask_img
 
 atlas_img<-atlas_img*mask_img
 
@@ -60,15 +61,16 @@ for(i in 1:dim(roi.list)[1]){
       tmp<-img[,,,j]
       tmp_sumlist[j]<-sum(tmp[selectROI])
     }
-    
+    if(sum(tmp_sumlist==0)==length(tmp_sumlist)){next}
     g <- hedges_g(tmp_sumlist~ design$Group)
     df[ii,'name']<-name
     df[ii,'acronym']<-acronym
     df[ii,'g']<-g$Hedges_g
     df[ii,'lower']<-g$CI_low
     df[ii,'upper']<-g$CI_high
-    ii<-ii+1
-  }
+    contrast_img[selectROI]<-g$Hedges_g
+    ii<-ii+1}
+  
   
   
 }
@@ -82,10 +84,11 @@ plot <- df %>%
   theme_minimal()+
   theme(text = element_text(size = 6), axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none")+
   scale_color_gradientn(colours = pal)+
-  labs(y = "PTSD-like > resilient [Hedge\'s g]", title = 'Peri condition', x='')
+  labs(y = "PTSD-like > resilient [Hedge\'s g]", title = 'Pre condition', x='')
 
 
-df %>% arrange(g) %>% write_csv('assets/script/peri_roi.csv')  
+df %>% arrange(g) %>% write_csv('assets/script/pre_roi.csv') 
+writeNIfTI(contrast_img,'assets/script/pre_g')
 
 ```
 
