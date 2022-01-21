@@ -34,12 +34,15 @@ design <- read_csv('assets/nifti/pre/design.csv')
 img <- readNIfTI('assets/nifti/pre/heatmaps_rs_smooth.nii.gz')
 atlas_img<-readNIfTI('assets/script/rs_atlas_split.nii.gz')
 mask_img <- readNIfTI('assets/nifti/pre/mask_corr.nii.gz')
+orig_raw<-read_csv('assets/orig_Marloes/pre_raw.csv')
+
 contrast_img<-mask_img
 
 atlas_img<-atlas_img*mask_img
 
 df <- data.frame(name=character(),
                  acronym=character(),
+                 g_orig=double(),
                  g=double(), 
                  lower=double(), 
                  upper=double(),
@@ -62,6 +65,8 @@ for(i in 1:dim(roi.list)[1]){
       tmp_sumlist[j]<-sum(tmp[selectROI])
     }
     if(sum(tmp_sumlist==0)==length(tmp_sumlist)){next}
+    
+    
     g <- hedges_g(tmp_sumlist~ design$Group)
     df[ii,'name']<-name
     df[ii,'acronym']<-acronym
@@ -69,6 +74,11 @@ for(i in 1:dim(roi.list)[1]){
     df[ii,'lower']<-g$CI_low
     df[ii,'upper']<-g$CI_high
     contrast_img[selectROI]<-g$Hedges_g
+    
+    #compare with bart's raw counts. 
+    
+    orig_tmp<-orig_raw[which(orig_raw['name']==name),] %>% select(-id, -name, -structure_order, -parent_id) %>% pivot_longer(cols=everything(), names_to='c animal_ID', values_to='ncell')
+    
     ii<-ii+1}
   
   
