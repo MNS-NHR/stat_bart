@@ -30,7 +30,7 @@ pal <- wes_palette("Zissou1", 100, type = "continuous")
 # read the roi and atlas file. 
 roi.list<-read.csv2('assets/script/Regions_IDs_split.csv',sep=';')
 
-design <- read_csv('assets/nifti/pre/design.csv')
+design <- read_csv('assets/nifti/pre/design.csv') %>% rename(animal_ID = `Animal ID`) %>% mutate(animal_ID=as.character(animal_ID))
 img <- readNIfTI('assets/nifti/pre/heatmaps_rs_smooth.nii.gz')
 atlas_img<-readNIfTI('assets/script/rs_atlas_split.nii.gz')
 mask_img <- readNIfTI('assets/nifti/pre/mask_corr.nii.gz')
@@ -42,8 +42,10 @@ atlas_img<-atlas_img*mask_img
 
 df <- data.frame(name=character(),
                  acronym=character(),
+                nvox=double(),
                  g_orig=double(),
-                 g=double(), 
+                 g=double(),
+                 g_dif=double(),
                  lower=double(), 
                  upper=double(),
                  stringsAsFactors=FALSE) 
@@ -73,11 +75,18 @@ for(i in 1:dim(roi.list)[1]){
     df[ii,'g']<-g$Hedges_g
     df[ii,'lower']<-g$CI_low
     df[ii,'upper']<-g$CI_high
-    contrast_img[selectROI]<-g$Hedges_g
+    df[ii,'nvox']<-length(selectROI)
+    #contrast_img[selectROI]<-g$Hedges_g
     
     #compare with bart's raw counts. 
     
-    orig_tmp<-orig_raw[which(orig_raw['name']==name),] %>% select(-id, -name, -structure_order, -parent_id) %>% pivot_longer(cols=everything(), names_to='c animal_ID', values_to='ncell')
+    orig_tmp<-orig_raw[which(orig_raw['name']==name),] %>% select(-id, -name, -structure_order, -parent_id) %>% pivot_longer(cols=everything(), names_to='animal_ID', values_to='ncell')
+    
+    if(sum(orig_tmp$ncell==0)==dim(orig_tmp)[1]){next}
+    merge_tmp<-full_join(design,orig_tmp) 
+    df[ii,'g_orig']<-hedges_g(merge_tmp$ncell~merge_tmp$Group)$Hedges_g
+    df[ii,'g_dif']<-abs(hedges_g(merge_tmp$ncell~merge_tmp$Group)$Hedges_g - g$Hedges_g)
+    
     
     ii<-ii+1}
   
@@ -98,7 +107,7 @@ plot <- df %>%
 
 
 df %>% arrange(g) %>% write_csv('assets/script/pre_roi.csv') 
-writeNIfTI(contrast_img,'assets/script/pre_g')
+#writeNIfTI(contrast_img,'assets/script/pre_g')
 
 ```
 
