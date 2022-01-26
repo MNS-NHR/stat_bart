@@ -42,8 +42,10 @@ pal <- wes_palette("Zissou1", 100, type = "continuous")
 #SVM pacakge
 library(e1071)
 
+
 # read nifti
 library(oro.nifti)
+library(abind)
 ```
 
 
@@ -222,6 +224,7 @@ Prediction isn't really above change level (~ 50%)
 
 ## Voxelwise analysis
 ```{r peri stats, eval=false}
+library(nat)
 template <- readNIfTI('assets/nifti/template/template_50.nii.gz')
 
 design <- read_csv('assets/nifti/peri/design.csv')
@@ -234,16 +237,29 @@ stat_img_upper <- mask_img
 
 mask_bool <- which(mask_img[,,] == 1,arr.ind = TRUE)
 
+
+img_corr<-c()
+for(iter in 1:dim(img)[4]){
+  print(iter)
+  tmp_img<-img[,,,iter]
+  tmp_img<-img[,,,iter]/mean(tmp_img[mask_img==1])
+  img_corr<-abind::abind(img_corr,tmp_img, along=4)
+}
+
+
 for(iter  in 1:dim(mask_bool)[1]){
   
 i<-  mask_bool[iter,]
-g <- hedges_g(img[i[1],i[2],i[3],] ~ design$Group)
+g <- hedges_g(img_corr[i[1],i[2],i[3],] ~ design$Group)
 stat_img[i[1],i[2],i[3]] <- g$Hedges_g
 stat_img_lower[i[1],i[2],i[3]] <- g$CI_low
 stat_img_upper[i[1],i[2],i[3]] <- g$CI_high
 }
 
-writeNIfTI(stat_img,'assets/nifti/peri/peri_effect')
+
+stat_img<-flip(stat_img,3)
+
+writeNIfTI(stat_img,'assets/nifti/peri/peri_effect_corr')
 writeNIfTI(stat_img_lower,'assets/nifti/peri/peri_effect_lower')
 writeNIfTI(stat_img_upper,'assets/nifti/peri/peri_effect_higher')
 
@@ -262,16 +278,27 @@ stat_img_upper <- mask_img
 
 mask_bool <- which(mask_img[,,] == 1,arr.ind = TRUE)
 
+
+img_corr<-c()
+for(iter in 1:dim(img)[4]){
+  print(iter)
+  tmp_img<-img[,,,iter]
+  tmp_img<-img[,,,iter]/mean(tmp_img[mask_img==1])
+  img_corr<-abind::abind(img_corr,tmp_img, along=4)
+}
+
+
 for(iter  in 1:dim(mask_bool)[1]){
   
 i<-  mask_bool[iter,]
-g <- hedges_g(img[i[1],i[2],i[3],] ~ design$Group)
+g <- hedges_g(img_corr[i[1],i[2],i[3],] ~ design$Group)
 stat_img[i[1],i[2],i[3]] <- g$Hedges_g
 stat_img_lower[i[1],i[2],i[3]] <- g$CI_low
 stat_img_upper[i[1],i[2],i[3]] <- g$CI_high
 }
 
-writeNIfTI(stat_img,'assets/nifti/post/post_effect')
+
+writeNIfTI(stat_img,'assets/nifti/post/post_effect_corr')
 writeNIfTI(stat_img_lower,'assets/nifti/post/post_effect_lower')
 writeNIfTI(stat_img_upper,'assets/nifti/post/post_effect_higher')
 
@@ -291,16 +318,26 @@ stat_img_upper <- mask_img
 
 mask_bool <- which(mask_img[,,] == 1,arr.ind = TRUE)
 
+img_corr<-c()
+for(iter in 1:dim(img)[4]){
+  print(iter)
+  tmp_img<-img[,,,iter]
+  tmp_img<-img[,,,iter]/mean(tmp_img[mask_img==1])
+  img_corr<-abind::abind(img_corr,tmp_img, along=4)
+}
+
+
+
 for(iter  in 1:dim(mask_bool)[1]){
   
 i<-  mask_bool[iter,]
-g <- hedges_g(img[i[1],i[2],i[3],] ~ design$Group)
+g <- hedges_g(img_corr[i[1],i[2],i[3],] ~ design$Group)
 stat_img[i[1],i[2],i[3]] <- g$Hedges_g
 stat_img_lower[i[1],i[2],i[3]] <- g$CI_low
 stat_img_upper[i[1],i[2],i[3]] <- g$CI_high
 }
 
-writeNIfTI(stat_img,'assets/nifti/pre/pre_effect')
+writeNIfTI(stat_img,'assets/nifti/pre/pre_effect_corr')
 writeNIfTI(stat_img_lower,'assets/nifti/pre/pre_effect_lower')
 writeNIfTI(stat_img_upper,'assets/nifti/pre/pre_effect_higher')
 
