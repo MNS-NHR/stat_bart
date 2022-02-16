@@ -222,7 +222,7 @@ print(glue('Prediction of Peri using Post is {detection*100} %'))
 Prediction isn't really above change level (~ 50%)
 
 
-## Voxelwise analysis
+# Voxelwise analysis
 ```{r peri stats, eval=false}
 library(nat)
 template <- readNIfTI('assets/nifti/template/template_50.nii.gz')

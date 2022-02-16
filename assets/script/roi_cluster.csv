@@ -33,7 +33,7 @@ primary somatosensory area,346
 primary somatosensory area,865
 primary somatosensory area,921
 primary somatosensory area,686
-"SS, nose",719
+primary somatosensory area,719
 "SS, nose",353
 "SS, nose",558
 "SS, nose",838
@@ -105,13 +105,13 @@ dorsal auditory area,678
 dorsal auditory area,252
 dorsal auditory area,156
 dorsal auditory area,243
-primary auditory area,1002
-primary auditory area,735
-primary auditory area,251
-primary auditory area,816
-primary auditory area,847
-primary auditory area,954
-primary auditory area,1005
+primary-posterior auditory,1002
+primary-posterior auditory,735
+primary-posterior auditory,251
+primary-posterior auditory,816
+primary-posterior auditory,847
+primary-posterior auditory,954
+primary-posterior auditory,1005
 primary-posterior auditory,1027
 primary-posterior auditory,696
 primary-posterior auditory,643
@@ -175,12 +175,12 @@ posteromedial,501
 posteromedial,565
 posteromedial,257
 posteromedial,469
-anterior cingulate area,31
-anterior cingulate area,572
-anterior cingulate area,1053
-anterior cingulate area,739
-anterior cingulate area,179
-anterior cingulate area,227
+ACA,31
+ACA,572
+ACA,1053
+ACA,739
+ACA,179
+ACA,227
 dACC,39
 dACC,935
 dACC,211
