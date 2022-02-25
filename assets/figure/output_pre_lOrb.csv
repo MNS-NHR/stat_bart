@@ -1,0 +1,2 @@
+,control_group,test_group,control_N,test_N,effect_size,is_paired,difference,ci_width,ci_lower_limit,ci_upper_limit,pvalue_permutation,pvalue_welch,statistic_welch,pvalue_students_t,statistic_students_t,pvalue_mann_whitney,statistic_mann_whitney
+1,Resilient,PTS-like,10,6,Hedges' g,false,1.2604170026480783,95.0%,0.3477550129376011,2.381457514719175,0.0256,0.030337871974279652,-2.5238872516363577,0.021722357043217465,-2.582057245211671,0.07350596825708798,13

@@ -1,0 +1,901 @@
+Region,ID,network
+Frontal pole,184,NA
+Frontal pole,68,SN
+Frontal pole,667,SN
+Somatomotor areas,500,NA
+Somatomotor areas,107,NA
+Somatomotor areas,219,NA
+Somatomotor areas,299,NA
+Somatomotor areas,644,NA
+Somatomotor areas,947,NA
+primary motor area,985,NA
+primary motor area,320,LCN
+primary motor area,943,LCN
+primary motor area,648,LCN
+primary motor area,844,LCN
+primary motor area,882,LCN
+secondary motor area,993,NA
+secondary motor area,656,LCN
+secondary motor area,962,LCN
+secondary motor area,767,LCN
+secondary motor area,1021,LCN
+secondary motor area,1085,LCN
+Somatosensory areas,453,NA
+Somatosensory areas,12993,NA
+Somatosensory areas,12994,NA
+Somatosensory areas,12995,NA
+Somatosensory areas,12996,NA
+Somatosensory areas,12997,NA
+Somatosensory areas,12998,NA
+primary somatosensory area,322,NA
+primary somatosensory area,793,NA
+primary somatosensory area,346,NA
+primary somatosensory area,865,NA
+primary somatosensory area,921,NA
+primary somatosensory area,686,NA
+primary somatosensory area,719,NA
+"SS, nose",353,NA
+"SS, nose",558,NA
+"SS, nose",838,NA
+"SS, nose",654,NA
+"SS, nose",702,NA
+"SS, nose",889,NA
+"SS, nose",929,NA
+"SS, barrel",329,NA
+"SS, barrel",981,NA
+"SS, barrel",201,NA
+"SS, barrel",1047,NA
+"SS, barrel",1070,NA
+"SS, barrel",1038,NA
+"SS, barrel",1062,NA
+"SS, lower limb",337,NA
+"SS, lower limb",1030,NA
+"SS, lower limb",113,NA
+"SS, lower limb",1094,NA
+"SS, lower limb",1128,NA
+"SS, lower limb",478,NA
+"SS, lower limb",510,NA
+"SS, mouth",345,NA
+"SS, mouth",878,LCN
+"SS, mouth",657,LCN
+"SS, mouth",950,LCN
+"SS, mouth",974,LCN
+"SS, mouth",1102,LCN
+"SS, mouth",2,LCN
+"SS, upper limb",369,NA
+"SS, upper limb",450,NA
+"SS, upper limb",854,NA
+"SS, upper limb",577,NA
+"SS, upper limb",625,NA
+"SS, upper limb",945,NA
+"SS, upper limb",1026,NA
+"SS, trunk",361,NA
+"SS, trunk",1006,NA
+"SS, trunk",670,NA
+"SS, trunk",1086,NA
+"SS, trunk",1111,NA
+"SS, trunk",9,NA
+"SS, trunk",461,NA
+supplemental somatosensory area,378,NA
+supplemental somatosensory area,873,LCN
+supplemental somatosensory area,806,LCN
+supplemental somatosensory area,1035,LCN
+supplemental somatosensory area,1090,LCN
+supplemental somatosensory area,862,LCN
+supplemental somatosensory area,893,LCN
+gustatory areas,1057,NA
+gustatory areas,36,SN
+gustatory areas,180,SN
+gustatory areas,148,SN
+gustatory areas,187,SN
+gustatory areas,638,SN
+gustatory areas,662,SN
+visceral area,677,NA
+visceral area,897,SN
+visceral area,1106,SN
+visceral area,1010,SN
+visceral area,1058,SN
+visceral area,857,SN
+visceral area,849,SN
+dorsal auditory area,247,NA
+dorsal auditory area,1011,NA
+dorsal auditory area,527,NA
+dorsal auditory area,600,NA
+dorsal auditory area,678,NA
+dorsal auditory area,252,NA
+dorsal auditory area,156,NA
+dorsal auditory area,243,NA
+primary-posterior auditory,1002,NA
+primary-posterior auditory,735,NA
+primary-posterior auditory,251,NA
+primary-posterior auditory,816,NA
+primary-posterior auditory,847,NA
+primary-posterior auditory,954,NA
+primary-posterior auditory,1005,NA
+primary-posterior auditory,1027,NA
+primary-posterior auditory,696,NA
+primary-posterior auditory,643,NA
+primary-posterior auditory,759,NA
+primary-posterior auditory,791,NA
+primary-posterior auditory,249,NA
+primary-posterior auditory,456,NA
+ventral auditory,1018,NA
+ventral auditory,959,NA
+ventral auditory,755,NA
+ventral auditory,990,NA
+ventral auditory,1023,NA
+ventral auditory,520,NA
+ventral auditory,598,NA
+visual areas,669,NA
+visual areas,801,NA
+visual areas,561,NA
+visual areas,913,NA
+visual areas,937,NA
+visual areas,457,NA
+visual areas,497,NA
+anterolateral visual area,402,NA
+anterolateral visual area,1074,NA
+anterolateral visual area,905,NA
+anterolateral visual area,1114,NA
+anterolateral visual area,233,NA
+anterolateral visual area,601,NA
+anterolateral visual area,649,NA
+anteromedial visual area,394,NA
+anteromedial visual area,281,DMN
+anteromedial visual area,1066,DMN
+anteromedial visual area,401,DMN
+anteromedial visual area,433,DMN
+anteromedial visual area,1046,DMN
+anteromedial visual area,441,DMN
+lateral visual area,409,NA
+lateral visual area,421,NA
+lateral visual area,973,NA
+lateral visual area,573,NA
+lateral visual area,613,NA
+lateral visual area,74,NA
+lateral visual area,121,NA
+primary visual area,385,NA
+primary visual area,593,NA
+primary visual area,821,NA
+primary visual area,721,NA
+primary visual area,778,NA
+primary visual area,33,NA
+primary visual area,305,NA
+posterolateral visual area,425,NA
+posterolateral visual area,750,NA
+posterolateral visual area,269,NA
+posterolateral visual area,869,NA
+posterolateral visual area,902,NA
+posterolateral visual area,377,NA
+posterolateral visual area,393,NA
+posteromedial,533,NA
+posteromedial,805,NA
+posteromedial,41,NA
+posteromedial,501,NA
+posteromedial,565,NA
+posteromedial,257,NA
+posteromedial,469,NA
+ACA,31,NA
+ACA,572,NA
+ACA,1053,NA
+ACA,739,NA
+ACA,179,NA
+ACA,227,NA
+dACC,39,NA
+dACC,935,DMN
+dACC,211,DMN
+dACC,1015,DMN
+dACC,919,DMN
+dACC,927,DMN
+vACC,48,NA
+vACC,588,DMN
+vACC,296,DMN
+vACC,772,DMN
+vACC,810,DMN
+vACC,819,DMN
+PrL,972,NA
+PrL,171,SN
+PrL,195,SN
+PrL,304,SN
+PrL,363,SN
+PrL,84,SN
+PrL,132,SN
+IL,44,NA
+IL,707,DMN
+IL,747,DMN
+IL,556,DMN
+IL,827,DMN
+IL,1054,DMN
+IL,1081,DMN
+orbital area,714,NA
+orbital area,264,NA
+orbital area,492,NA
+orbital area,352,NA
+orbital area,476,NA
+orbital area,516,NA
+orbital area,723,NA
+lateral orbital area,448,SN
+lateral orbital area,412,SN
+lateral orbital area,630,SN
+lateral orbital area,440,SN
+lateral orbital area,488,SN
+medial orbital area,731,NA
+medial orbital area,484,SN
+medial orbital area,524,SN
+medial orbital area,582,SN
+medial orbital area,620,SN
+medial orbital area,910,SN
+ventral orbital area,738,NA
+ventral orbital area,746,NA
+ventral orbital area,969,SN
+ventral orbital area,288,SN
+ventral orbital area,1125,SN
+ventral orbital area,608,SN
+ventral orbital area,680,SN
+dorsal agranular insular area,95,NA
+dorsal agranular insular area,104,NA
+dorsal agranular insular area,996,SN
+dorsal agranular insular area,328,SN
+dorsal agranular insular area,1101,SN
+dorsal agranular insular area,783,SN
+dorsal agranular insular area,831,SN
+posterior agranular insular area,111,SN
+posterior agranular insular area,120,NA
+posterior agranular insular area,163,NA
+posterior agranular insular area,344,NA
+posterior agranular insular area,314,NA
+posterior agranular insular area,355,NA
+ventral agranular insular area,119,SN
+ventral agranular insular area,704,NA
+ventral agranular insular area,694,NA
+ventral agranular insular area,800,NA
+ventral agranular insular area,675,NA
+ventral agranular insular area,699,NA
+lateral retrosplenial area,254,NA
+lateral retrosplenial area,894,DMN
+lateral retrosplenial area,671,NA
+lateral retrosplenial area,965,NA
+lateral retrosplenial area,774,NA
+lateral retrosplenial area,906,NA
+lateral retrosplenial area,279,NA
+dorsal retrosplenial area,879,NA
+dorsal retrosplenial area,442,DMN
+dorsal retrosplenial area,434,DMN
+dorsal retrosplenial area,545,DMN
+dorsal retrosplenial area,610,DMN
+dorsal retrosplenial area,274,DMN
+dorsal retrosplenial area,330,DMN
+ventral retrosplenial area,886,NA
+ventral retrosplenial area,542,DMN
+ventral retrosplenial area,606,DMN
+ventral retrosplenial area,430,DMN
+ventral retrosplenial area,687,DMN
+ventral retrosplenial area,590,DMN
+ventral retrosplenial area,622,DMN
+posterior parietal association areas,22,NA
+posterior parietal association areas,532,NA
+posterior parietal association areas,241,NA
+posterior parietal association areas,635,NA
+posterior parietal association areas,683,NA
+posterior parietal association areas,308,NA
+posterior parietal association areas,340,NA
+temporal association areas,541,NA
+temporal association areas,97,NA
+temporal association areas,1127,NA
+temporal association areas,234,NA
+temporal association areas,289,NA
+temporal association areas,729,NA
+temporal association areas,786,NA
+perirhinal area,922,NA
+perirhinal area,540,NA
+perirhinal area,888,NA
+perirhinal area,692,NA
+perirhinal area,335,NA
+perirhinal area,368,NA
+ectorhinal area,895,NA
+ectorhinal area,836,NA
+ectorhinal area,427,NA
+ectorhinal area,988,NA
+ectorhinal area,977,NA
+ectorhinal area,1045,NA
+main olfactory bulb,698,NA
+main olfactory bulb,507,NA
+main olfactory bulb,212,NA
+main olfactory bulb,220,NA
+main olfactory bulb,228,NA
+main olfactory bulb,236,NA
+main olfactory bulb,244,NA
+accessory olfactory bulb,151,NA
+accessory olfactory bulb,188,NA
+accessory olfactory bulb,196,NA
+accessory olfactory bulb,204,NA
+anterior olfactory nucleus,159,NA
+anterior olfactory nucleus,167,NA
+anterior olfactory nucleus,175,NA
+anterior olfactory nucleus,183,NA
+anterior olfactory nucleus,191,NA
+anterior olfactory nucleus,160,NA
+anterior olfactory nucleus,168,NA
+taenia tecta,589,NA
+taenia tecta,597,NA
+taenia tecta,297,NA
+taenia tecta,1034,NA
+taenia tecta,1042,NA
+taenia tecta,1050,NA
+taenia tecta,1059,NA
+taenia tecta,605,NA
+taenia tecta,306,NA
+taenia tecta,1067,NA
+taenia tecta,1075,NA
+taenia tecta,1082,NA
+taenia tecta,814,NA
+taenia tecta,496,NA
+taenia tecta,535,NA
+taenia tecta,360,NA
+taenia tecta,646,NA
+taenia tecta,267,NA
+piriform area,961,NA
+piriform area,152,NA
+piriform area,276,NA
+piriform area,284,NA
+piriform area,291,NA
+nucleus of the lateral olfactory tract,619,NA
+nucleus of the lateral olfactory tract,392,NA
+nucleus of the lateral olfactory tract,260,NA
+nucleus of the lateral olfactory tract,268,NA
+nucleus of the lateral olfactory tract,1139,NA
+cortical amygdalar area,631,NA
+cortical amygdalar area,639,NA
+cortical amygdalar area,192,NA
+cortical amygdalar area,208,NA
+cortical amygdalar area,647,NA
+cortical amygdalar area,655,NA
+cortical amygdalar area,584,NA
+cortical amygdalar area,376,NA
+cortical amygdalar area,216,NA
+cortical amygdalar area,224,NA
+cortical amygdalar area,232,NA
+cortical amygdalar area,663,NA
+cortical amygdalar area,592,NA
+cortical amygdalar area,383,NA
+cortical amygdalar area,240,NA
+cortical amygdalar area,248,NA
+cortical amygdalar area,256,NA
+piriform-amygdalar area,788,NA
+piriform-amygdalar area,400,NA
+piriform-amygdalar area,408,NA
+piriform-amygdalar area,416,NA
+piriform-amygdalar area,424,NA
+postpiriform transition area,566,NA
+postpiriform transition area,517,NA
+postpiriform transition area,1140,NA
+postpiriform transition area,1141,NA
+postpiriform transition area,1142,NA
+dCA1,382,NA
+dCA1,391,NA
+dCA1,399,NA
+dCA1,407,NA
+dCA1,415,NA
+dCA2,423,NA
+dCA2,431,NA
+dCA2,438,NA
+dCA2,446,NA
+dCA2,454,NA
+dCA3,463,NA
+dCA3,471,NA
+dCA3,479,NA
+dCA3,486,NA
+dCA3,495,NA
+dCA3,504,NA
+vCA1,2382,NA
+vCA1,2407,NA
+vCA1,2391,NA
+vCA1,2399,NA
+vCA1,2415,NA
+vCA2,2423,NA
+vCA2,2431,NA
+vCA2,2438,NA
+vCA2,2446,NA
+vCA2,2454,NA
+vCA3,2463,NA
+vCA3,2471,NA
+vCA3,2479,NA
+vCA3,2486,NA
+vCA3,2495,NA
+vCA3,2504,NA
+dDG,726,NA
+dDG,10703,NA
+dDG,12703,NA
+dDG,10704,NA
+dDG,12705,NA
+dDG,632,NA
+dDG,12704,NA
+dDG,10702,NA
+dDG,12702,NA
+dDG,734,NA
+dDG,742,NA
+dDG,751,NA
+dDG,758,NA
+dDG,766,NA
+dDG,775,NA
+dDG,782,NA
+dDG,790,NA
+dDG,799,NA
+dDG,807,NA
+dDG,815,NA
+dDG,823,NA
+vDG,2726,NA
+vDG,12706,NA
+vDG,12707,NA
+vDG,2632,NA
+vDG,12704,NA
+vDG,2734,NA
+vDG,2742,NA
+vDG,2751,NA
+vDG,2758,NA
+vDG,2766,NA
+vDG,2775,NA
+vDG,2782,NA
+vDG,2790,NA
+vDG,2799,NA
+vDG,2807,NA
+vDG,2815,NA
+vDG,2823,NA
+lateral entorhinal area,909,NA
+lateral entorhinal area,918,NA
+lateral entorhinal area,1121,NA
+lateral entorhinal area,20,NA
+lateral entorhinal area,999,NA
+lateral entorhinal area,715,NA
+lateral entorhinal area,764,NA
+lateral entorhinal area,52,NA
+lateral entorhinal area,92,NA
+lateral entorhinal area,312,NA
+lateral entorhinal area,139,NA
+lateral entorhinal area,387,NA
+lateral entorhinal area,28,NA
+lateral entorhinal area,60,NA
+medial entorhinal area,926,NA
+medial entorhinal area,526,NA
+medial entorhinal area,543,NA
+medial entorhinal area,468,NA
+medial entorhinal area,508,NA
+medial entorhinal area,664,NA
+medial entorhinal area,712,NA
+medial entorhinal area,727,NA
+medial entorhinal area,550,NA
+medial entorhinal area,743,NA
+ventral entorhinal area,934,NA
+ventral entorhinal area,259,NA
+ventral entorhinal area,324,NA
+ventral entorhinal area,371,NA
+ventral entorhinal area,419,NA
+ventral entorhinal area,1133,NA
+parasubiculum,843,NA
+parasubiculum,10693,NA
+parasubiculum,10694,NA
+parasubiculum,10695,NA
+postsubiculum,1037,NA
+postsubiculum,10696,NA
+postsubiculum,10697,NA
+postsubiculum,10698,NA
+presubiculum,1084,NA
+presubiculum,10699,NA
+presubiculum,10700,NA
+presubiculum,10701,NA
+Subiculum,502,NA
+Subiculum,509,NA
+Subiculum,829,NA
+Subiculum,845,NA
+Subiculum,837,NA
+Subiculum,518,NA
+Subiculum,853,NA
+Subiculum,870,NA
+Subiculum,861,NA
+cortical subplate,703,NA
+cortical subplate,16,NA
+cortical subplate,583,SN
+cortical subplate,942,NA
+cortical subplate,952,NA
+cortical subplate,966,NA
+BLABMALA,131,NA
+BLABMALA,295,NA
+BLABMALA,303,SN
+BLABMALA,311,NA
+BLABMALA,451,NA
+BLABMALA,319,NA
+BLABMALA,327,NA
+BLABMALA,334,NA
+BLABMALA,780,NA
+dorsal striatum,485,NA
+dorsal striatum,672,LCN
+ventral striatum,493,NA
+ventral striatum,56,SN
+ventral striatum,998,SN
+ventral striatum,754,SN
+ventral striatum,481,NA
+ventral striatum,489,NA
+ventral striatum,458,NA
+ventral striatum,465,NA
+ventral striatum,473,NA
+lateral septal nucleus,275,NA
+lateral septal nucleus,242,NA
+lateral septal nucleus,250,NA
+lateral septal nucleus,258,NA
+lateral septal nucleus,266,NA
+lateral septal nucleus,310,NA
+lateral septal nucleus,333,NA
+striatum-like amygdalar nuclei,278,NA
+striatum-like amygdalar nuclei,23,SN
+striatum-like amygdalar nuclei,292,NA
+striatum-like amygdalar nuclei,536,NA
+striatum-like amygdalar nuclei,544,NA
+striatum-like amygdalar nuclei,551,NA
+striatum-like amygdalar nuclei,559,NA
+striatum-like amygdalar nuclei,1105,NA
+striatum-like amygdalar nuclei,403,NA
+striatum-like amygdalar nuclei,411,NA
+striatum-like amygdalar nuclei,418,NA
+striatum-like amygdalar nuclei,426,NA
+striatum-like amygdalar nuclei,472,NA
+striatum-like amygdalar nuclei,480,NA
+striatum-like amygdalar nuclei,487,NA
+striatum-like amygdalar nuclei,435,NA
+pallidum dorsal region,803,NA
+pallidum dorsal region,818,NA
+pallidum dorsal region,1031,LCN
+pallidum dorsal region,1022,LCN
+pallidum dorsal region,342,SN
+pallidum ventral region,835,NA
+pallidum ventral region,298,SN
+pallidum medial region,826,NA
+medial septal complex,904,NA
+medial septal complex,564,NA
+medial septal complex,596,NA
+medial septal complex,581,NA
+"pallidum, caudal region",809,NA
+"pallidum, caudal region",351,NA
+"pallidum, caudal region",359,NA
+"pallidum, caudal region",537,NA
+"pallidum, caudal region",498,NA
+"pallidum, caudal region",505,NA
+"pallidum, caudal region",513,NA
+"pallidum, caudal region",546,NA
+"pallidum, caudal region",521,NA
+"pallidum, caudal region",554,NA
+"pallidum, caudal region",562,NA
+"pallidum, caudal region",529,NA
+"pallidum, caudal region",367,NA
+"pallidum, caudal region",569,NA
+"pallidum, caudal region",578,NA
+"pallidum, caudal region",585,NA
+"pallidum, caudal region",594,NA
+"pallidum, caudal region",602,NA
+"pallidum, caudal region",287,NA
+ventral group of dorsal thalamus,637,NA
+ventral group of dorsal thalamus,629,LCN
+ventral group of dorsal thalamus,685,LCN
+ventral group of dorsal thalamus,709,NA
+ventral group of dorsal thalamus,718,LCN
+ventral group of dorsal thalamus,725,LCN
+ventral group of dorsal thalamus,733,LCN
+ventral group of dorsal thalamus,741,NA
+ventral group of dorsal thalamus,406,NA
+ventral group of dorsal thalamus,414,NA
+ventral group of dorsal thalamus,422,NA
+ventral group of dorsal thalamus,609,NA
+"Geniculate group, dorsal thalamus",1008,NA
+"Geniculate group, dorsal thalamus",475,NA
+"Geniculate group, dorsal thalamus",1072,NA
+"Geniculate group, dorsal thalamus",1079,NA
+"Geniculate group, dorsal thalamus",1088,NA
+"Geniculate group, dorsal thalamus",170,NA
+Thalamus lateral group,138,NA
+Thalamus lateral group,218,NA
+Thalamus lateral group,1020,LCN
+Thalamus lateral group,1029,NA
+Thalamus lateral group,325,NA
+Thalamus anterior group,239,NA
+Thalamus anterior group,255,DMN
+Thalamus anterior group,127,DMN
+Thalamus anterior group,1096,NA
+Thalamus anterior group,1104,NA
+Thalamus anterior group,64,DMN
+Thalamus anterior group,1120,DMN
+Thalamus anterior group,1113,DMN
+Thalamus anterior group,155,DMN
+Thalamus midline-medial group,444,NA
+Thalamus midline-medial group,59,NA
+Thalamus midline-medial group,362,SN
+Thalamus midline-medial group,617,NA
+Thalamus midline-medial group,626,NA
+Thalamus midline-medial group,636,NA
+Thalamus midline-medial group,366,SN
+Thalamus midline-medial group,1077,SN
+Thalamus midline-medial group,571,NA
+Thalamus midline-medial group,149,NA
+Thalamus midline-medial group,15,NA
+Thalamus midline-medial group,181,NA
+Thalamus intralaminar,51,NA
+Thalamus intralaminar,189,LCN
+Thalamus intralaminar,599,LCN
+Thalamus intralaminar,907,LCN
+Thalamus intralaminar,575,DMN
+Thalamus intralaminar,575,LCN
+Thalamus intralaminar,930,LCN
+Thalamus intralaminar,262,NA
+Thalamus geniculate group,1014,NA
+Thalamus geniculate group,27,NA
+Thalamus geniculate group,178,NA
+Thalamus geniculate group,300,NA
+Thalamus geniculate group,316,NA
+Thalamus geniculate group,321,NA
+Thalamus geniculate group,483,NA
+Thalamus geniculate group,186,NA
+Thalamus geniculate group,953,NA
+Hypothalamus periventricular zone,157,NA
+Hypothalamus periventricular zone,390,NA
+Hypothalamus periventricular zone,332,NA
+Hypothalamus periventricular zone,432,NA
+Hypothalamus periventricular zone,38,NA
+Hypothalamus periventricular zone,71,NA
+Hypothalamus periventricular zone,47,NA
+Hypothalamus periventricular zone,79,NA
+Hypothalamus periventricular zone,103,NA
+Hypothalamus periventricular zone,652,NA
+Hypothalamus periventricular zone,660,NA
+Hypothalamus periventricular zone,94,NA
+Hypothalamus periventricular zone,55,NA
+Hypothalamus periventricular zone,87,NA
+Hypothalamus periventricular zone,110,NA
+Hypothalamus periventricular zone,30,NA
+Hypothalamus periventricular zone,118,NA
+Hypothalamus periventricular zone,223,NA
+Hypothalamus periventricular region,141,NA
+Hypothalamus periventricular region,72,NA
+Hypothalamus periventricular region,80,NA
+Hypothalamus periventricular region,263,NA
+Hypothalamus periventricular region,272,NA
+Hypothalamus periventricular region,830,NA
+Hypothalamus periventricular region,668,NA
+Hypothalamus periventricular region,676,NA
+Hypothalamus periventricular region,684,NA
+Hypothalamus periventricular region,452,NA
+Hypothalamus periventricular region,523,NA
+Hypothalamus periventricular region,763,NA
+Hypothalamus periventricular region,914,NA
+Hypothalamus periventricular region,1109,NA
+Hypothalamus periventricular region,1124,NA
+Hypothalamus periventricular region,126,NA
+Hypothalamus periventricular region,133,NA
+Hypothalamus periventricular region,347,NA
+Hypothalamus periventricular region,286,NA
+Hypothalamus periventricular region,338,NA
+Hypothalamus periventricular region,689,NA
+hypothalamic medial zone,467,NA
+hypothalamic medial zone,88,NA
+hypothalamic medial zone,700,NA
+hypothalamic medial zone,708,NA
+hypothalamic medial zone,716,NA
+hypothalamic medial zone,724,NA
+hypothalamic medial zone,331,NA
+hypothalamic medial zone,210,NA
+hypothalamic medial zone,491,NA
+hypothalamic medial zone,732,NA
+hypothalamic medial zone,525,NA
+hypothalamic medial zone,1110,NA
+hypothalamic medial zone,1118,NA
+hypothalamic medial zone,557,NA
+hypothalamic medial zone,1126,NA
+hypothalamic medial zone,1,NA
+hypothalamic medial zone,515,NA
+hypothalamic medial zone,740,NA
+hypothalamic medial zone,748,NA
+hypothalamic medial zone,756,NA
+hypothalamic medial zone,980,NA
+hypothalamic medial zone,1004,NA
+hypothalamic medial zone,63,NA
+hypothalamic medial zone,439,NA
+hypothalamic medial zone,447,NA
+hypothalamic medial zone,455,NA
+hypothalamic medial zone,464,NA
+hypothalamic medial zone,693,NA
+hypothalamic medial zone,761,NA
+hypothalamic medial zone,769,NA
+hypothalamic medial zone,777,NA
+hypothalamic medial zone,785,NA
+hypothalamic medial zone,946,NA
+hypothalamic lateral zone,194,SN
+hypothalamic lateral zone,290,NA
+hypothalamic lateral zone,226,SN
+hypothalamic lateral zone,356,SN
+hypothalamic lateral zone,364,SN
+hypothalamic lateral zone,173,SN
+hypothalamic lateral zone,470,SN
+hypothalamic lateral zone,614,SN
+hypothalamic lateral zone,797,SN
+hypothalamic lateral zone,796,NA
+hypothalamic lateral zone,804,NA
+"midbrain, sensory related",339,NA
+"midbrain, sensory related",302,NA
+"midbrain, sensory related",851,NA
+"midbrain, sensory related",842,NA
+"midbrain, sensory related",834,NA
+"midbrain, sensory related",4,NA
+"midbrain, sensory related",811,NA
+"midbrain, sensory related",820,NA
+"midbrain, sensory related",828,NA
+"midbrain, sensory related",580,NA
+"midbrain, sensory related",271,NA
+"midbrain, sensory related",874,NA
+"midbrain, sensory related",460,NA
+"midbrain, motor related",323,NA
+"midbrain, motor related",381,LCN
+"midbrain, motor related",749,LCN
+"midbrain, motor related",128,LCN
+"midbrain, motor related",539,NA
+"midbrain, motor related",548,NA
+"midbrain, motor related",555,NA
+"midbrain, motor related",246,LCN
+"midbrain, motor related",294,LCN
+"midbrain, motor related",26,NA
+"midbrain, motor related",42,NA
+"midbrain, motor related",17,NA
+"midbrain, motor related",10,NA
+"midbrain, motor related",494,NA
+"midbrain, motor related",503,NA
+"midbrain, motor related",511,NA
+periaqueductal grey,795,LCN
+periaqueductal grey,50,NA
+periaqueductal grey,67,NA
+periaqueductal grey,587,NA
+pretectal region,1100,LCN
+pretectal region,215,NA
+pretectal region,531,NA
+pretectal region,628,NA
+pretectal region,634,NA
+pretectal region,706,NA
+pretectal region,1061,NA
+pretectal region,616,LCN
+pretectal region,214,LCN
+pretectal region,35,LCN
+pretectal region,975,LCN
+pretectal region,115,LCN
+pretectal region,757,LCN
+pretectal region,231,LCN
+pretectal region,66,LCN
+pretectal region,75,LCN
+pretectal region,58,LCN
+pretectal region,615,LCN
+"midbrain, behavioral state related",348,NA
+"midbrain, behavioral state related",374,NA
+"midbrain, behavioral state related",1052,NA
+"midbrain, behavioral state related",165,NA
+"midbrain, behavioral state related",12,NA
+"midbrain, behavioral state related",100,NA
+"midbrain, behavioral state related",591,NA
+"midbrain, behavioral state related",872,NA
+"pons, sensory related",1132,NA
+"pons, sensory related",612,NA
+"pons, sensory related",82,NA
+"pons, sensory related",90,NA
+"pons, sensory related",99,NA
+"pons, sensory related",7,NA
+"pons, sensory related",867,NA
+"pons, sensory related",123,NA
+"pons, sensory related",881,NA
+"pons, sensory related",860,NA
+"pons, sensory related",868,NA
+"pons, sensory related",875,NA
+"pons, sensory related",883,NA
+"pons, sensory related",891,NA
+"pons, sensory related",890,NA
+"pons, sensory related",899,NA
+"pons, sensory related",915,NA
+"pons, sensory related",923,NA
+"pons, sensory related",398,NA
+"pons, sensory related",122,NA
+"pons, sensory related",105,NA
+"pons, sensory related",114,NA
+"pons, motor related",987,NA
+"pons, motor related",280,NA
+"pons, motor related",880,NA
+"pons, motor related",283,NA
+"pons, motor related",898,NA
+"pons, motor related",931,LCN
+"pons, motor related",1093,NA
+"pons, motor related",552,NA
+"pons, motor related",318,NA
+"pons, motor related",462,NA
+"pons, motor related",534,NA
+"pons, motor related",574,NA
+"pons, motor related",621,NA
+"pons, behavioral state related",1117,NA
+"pons, behavioral state related",679,DMN
+"pons, behavioral state related",137,NA
+"pons, behavioral state related",130,NA
+"pons, behavioral state related",147,DMN
+"pons, behavioral state related",162,DMN
+"pons, behavioral state related",604,DMN
+"pons, behavioral state related",146,DMN
+"pons, behavioral state related",238,DMN
+"pons, behavioral state related",350,DMN
+"pons, behavioral state related",358,DMN
+medulla,354,NA
+medulla,386,NA
+medulla,207,NA
+medulla,607,NA
+medulla,112,NA
+medulla,560,NA
+medulla,96,NA
+medulla,101,NA
+medulla,720,NA
+medulla,711,NA
+medulla,1039,NA
+medulla,903,NA
+medulla,642,NA
+medulla,651,NA
+medulla,659,NA
+medulla,666,NA
+medulla,674,NA
+medulla,682,NA
+medulla,691,NA
+medulla,429,NA
+medulla,437,NA
+medulla,445,NA
+medulla,77,NA
+medulla,53,NA
+medulla,61,NA
+medulla,45,NA
+medulla,69,NA
+medulla,789,NA
+medulla,370,NA
+medulla,653,NA
+medulla,568,NA
+medulla,661,NA
+medulla,576,NA
+medulla,640,NA
+medulla,135,NA
+medulla,939,NA
+medulla,143,NA
+medulla,839,NA
+medulla,887,NA
+medulla,1048,NA
+medulla,372,NA
+medulla,83,NA
+medulla,136,NA
+medulla,106,NA
+medulla,203,NA
+medulla,235,NA
+medulla,955,NA
+medulla,963,NA
+medulla,307,NA
+medulla,395,NA
+medulla,1098,NA
+medulla,1107,NA
+medulla,852,NA
+medulla,859,NA
+medulla,938,NA
+medulla,970,NA
+medulla,978,NA
+medulla,154,NA
+medulla,161,NA
+medulla,177,NA
+medulla,169,NA
+medulla,995,NA
+medulla,1069,NA
+medulla,185,NA
+medulla,193,NA
+medulla,701,NA
+medulla,209,NA
+medulla,202,NA
+medulla,225,NA
+medulla,217,NA
+medulla,765,NA
+medulla,773,NA
+medulla,781,NA
+medulla,76,NA
+medulla,379,NA
+medulla,206,NA
+medulla,230,NA
+medulla,222,NA
