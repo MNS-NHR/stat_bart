@@ -1,0 +1,167 @@
+ID;Cluster;Name;Abbreviation;Network
+575;1;Central lateral nucleus of the thalamus;CL;DMN
+255;2;Anterior group of the dorsal thalamus;ATL;DMN
+127;2;Anterior group of the dorsal thalamus;ATL;DMN
+64;2;Anterior group of the dorsal thalamus;ATL;DMN
+1120;2;Anterior group of the dorsal thalamus;ATL;DMN
+1113;2;Anterior group of the dorsal thalamus;ATL;DMN
+155;2;Anterior group of the dorsal thalamus;ATL;DMN
+935;3;Anterior cingulate area;ACA;DMN
+211;3;Anterior cingulate area;ACA;DMN
+1015;3;Anterior cingulate area;ACA;DMN
+919;3;Anterior cingulate area;ACA;DMN
+927;3;Anterior cingulate area;ACA;DMN
+588;3;Anterior cingulate area;ACA;DMN
+296;3;Anterior cingulate area;ACA;DMN
+772;3;Anterior cingulate area;ACA;DMN
+810;3;Anterior cingulate area;ACA;DMN
+819;3;Anterior cingulate area;ACA;DMN
+707;4;Infralimbic area;ILA;DMN
+747;4;Infralimbic area;ILA;DMN
+556;4;Infralimbic area;ILA;DMN
+827;4;Infralimbic area;ILA;DMN
+1054;4;Infralimbic area;ILA;DMN
+1081;4;Infralimbic area;ILA;DMN
+894;5;Retrosplenial area;RSP;DMN
+442;5;Retrosplenial area;RSP;DMN
+434;5;Retrosplenial area;RSP;DMN
+545;5;Retrosplenial area;RSP;DMN
+610;5;Retrosplenial area;RSP;DMN
+274;5;Retrosplenial area;RSP;DMN
+330;5;Retrosplenial area;RSP;DMN
+542;5;Retrosplenial area;RSP;DMN
+606;5;Retrosplenial area;RSP;DMN
+430;5;Retrosplenial area;RSP;DMN
+687;5;Retrosplenial area;RSP;DMN
+590;5;Retrosplenial area;RSP;DMN
+622;5;Retrosplenial area;RSP;DMN
+281;6;Anteromedial visual area;VISam;DMN
+1066;6;Anteromedial visual area;VISam;DMN
+401;6;Anteromedial visual area;VISam;DMN
+433;6;Anteromedial visual area;VISam;DMN
+1046;6;Anteromedial visual area;VISam;DMN
+441;6;Anteromedial visual area;VISam;DMN
+679;7;Pons, behavioral state related;P-sat;DMN
+147;7;Pons, behavioral state related;P-sat;DMN
+162;7;Pons, behavioral state related;P-sat;DMN
+604;7;Pons, behavioral state related;P-sat;DMN
+146;7;Pons, behavioral state related;P-sat;DMN
+238;7;Pons, behavioral state related;P-sat;DMN
+350;7;Pons, behavioral state related;P-sat;DMN
+358;7;Pons, behavioral state related;P-sat;DMN
+23;8;Anterior amygdalar area;AAA;SN
+194;9;Hypothalamic lateral zone;LZ;SN
+226;9;Hypothalamic lateral zone;LZ;SN
+356;9;Hypothalamic lateral zone;LZ;SN
+364;9;Hypothalamic lateral zone;LZ;SN
+173;9;Hypothalamic lateral zone;LZ;SN
+470;9;Hypothalamic lateral zone;LZ;SN
+614;9;Hypothalamic lateral zone;LZ;SN
+797;9;Hypothalamic lateral zone;LZ;SN
+362;10;Medial group of the dorsal thalamus;MED;SN
+366;10;Medial group of the dorsal thalamus;MED;SN
+1077;10;Medial group of the dorsal thalamus;MED;SN
+303;11;Basolateral amygdalar nucleus, anterior part;BLAa;SN
+342;12;Pallidum, ventral region;PALv;SN
+298;12;Pallidum, ventral region;PALv;SN
+996;13;Agranular insular area;AI;SN
+328;13;Agranular insular area;AI;SN
+1101;13;Agranular insular area;AI;SN
+783;13;Agranular insular area;AI;SN
+831;13;Agranular insular area;AI;SN
+111;13;Agranular insular area;AI;SN
+119;13;Agranular insular area;AI;SN
+897;14;Visceral area;VISC;SN
+1106;14;Visceral area;VISC;SN
+1010;14;Visceral area;VISC;SN
+1058;14;Visceral area;VISC;SN
+857;14;Visceral area;VISC;SN
+849;14;Visceral area;VISC;SN
+448;15;Orbital area;ORB;SN
+412;15;Orbital area;ORB;SN
+630;15;Orbital area;ORB;SN
+440;15;Orbital area;ORB;SN
+488;15;Orbital area;ORB;SN
+484;15;Orbital area;ORB;SN
+524;15;Orbital area;ORB;SN
+582;15;Orbital area;ORB;SN
+620;15;Orbital area;ORB;SN
+910;15;Orbital area;ORB;SN
+969;15;Orbital area;ORB;SN
+288;15;Orbital area;ORB;SN
+1125;15;Orbital area;ORB;SN
+608;15;Orbital area;ORB;SN
+680;15;Orbital area;ORB;SN
+36;16;Gustatory areas;GU;SN
+180;16;Gustatory areas;GU;SN
+148;16;Gustatory areas;GU;SN
+187;16;Gustatory areas;GU;SN
+638;16;Gustatory areas;GU;SN
+662;16;Gustatory areas;GU;SN
+56;17;Striatum ventral region;STRv;SN
+998;17;Striatum ventral region;STRv;SN
+754;17;Striatum ventral region;STRv;SN
+68;18;Frontal pole, cerebral cortex;FRP;SN
+667;18;Frontal pole, cerebral cortex;FRP;SN
+171;19;Prelimbic area;PL;SN
+195;19;Prelimbic area;PL;SN
+304;19;Prelimbic area;PL;SN
+363;19;Prelimbic area;PL;SN
+84;19;Prelimbic area;PL;SN
+132;19;Prelimbic area;PL;SN
+583;20;Claustrum;CLA;SN
+189;21;Intralaminar nuclei of the dorsal thalamus;ILM;LCN
+599;21;Intralaminar nuclei of the dorsal thalamus;ILM;LCN
+907;21;Intralaminar nuclei of the dorsal thalamus;ILM;LCN
+575;21;Intralaminar nuclei of the dorsal thalamus;ILM;LCN
+930;21;Intralaminar nuclei of the dorsal thalamus;ILM;LCN
+1020;22;Posterior complex of the thalamus;PO;LCN
+381;23;Midbrain, motor related;Mbmot;LCN
+749;23;Midbrain, motor related;Mbmot;LCN
+128;23;Midbrain, motor related;Mbmot;LCN
+246;23;Midbrain, motor related;Mbmot;LCN
+294;23;Midbrain, motor related;Mbmot;LCN
+795;23;Midbrain, motor related;Mbmot;LCN
+1100;23;Midbrain, motor related;Mbmot;LCN
+616;23;Midbrain, motor related;Mbmot;LCN
+214;23;Midbrain, motor related;Mbmot;LCN
+35;23;Midbrain, motor related;Mbmot;LCN
+975;23;Midbrain, motor related;Mbmot;LCN
+115;23;Midbrain, motor related;Mbmot;LCN
+757;23;Midbrain, motor related;Mbmot;LCN
+231;23;Midbrain, motor related;Mbmot;LCN
+66;23;Midbrain, motor related;Mbmot;LCN
+75;23;Midbrain, motor related;Mbmot;LCN
+58;23;Midbrain, motor related;Mbmot;LCN
+615;23;Midbrain, motor related;Mbmot;LCN
+629;24;Ventral group of the dorsal thalamus;VENT;LCN
+685;24;Ventral group of the dorsal thalamus;VENT;LCN
+718;24;Ventral group of the dorsal thalamus;VENT;LCN
+725;24;Ventral group of the dorsal thalamus;VENT;LCN
+733;24;Ventral group of the dorsal thalamus;VENT;LCN
+672;25;Caudoputamen;CP;LCN
+1031;26;Pallidum, dorsal region;PALd;LCN
+1022;26;Pallidum, dorsal region;PALd;LCN
+931;27;Pontine gray;PG;LCN
+878;28;Primary somatosensory area, mouth;SSp-m;LCN
+657;28;Primary somatosensory area, mouth;SSp-m;LCN
+950;28;Primary somatosensory area, mouth;SSp-m;LCN
+974;28;Primary somatosensory area, mouth;SSp-m;LCN
+1102;28;Primary somatosensory area, mouth;SSp-m;LCN
+2;28;Primary somatosensory area, mouth;SSp-m;LCN
+873;29;Supplemental somatosensory area;SSs;LCN
+806;29;Supplemental somatosensory area;SSs;LCN
+1035;29;Supplemental somatosensory area;SSs;LCN
+1090;29;Supplemental somatosensory area;SSs;LCN
+862;29;Supplemental somatosensory area;SSs;LCN
+893;29;Supplemental somatosensory area;SSs;LCN
+320;30;Primary motor area;MOp;LCN
+943;30;Primary motor area;MOp;LCN
+648;30;Primary motor area;MOp;LCN
+844;30;Primary motor area;MOp;LCN
+882;30;Primary motor area;MOp;LCN
+656;31;Secondary motor area;MOs;LCN
+962;31;Secondary motor area;MOs;LCN
+767;31;Secondary motor area;MOs;LCN
+1021;31;Secondary motor area;MOs;LCN
+1085;31;Secondary motor area;MOs;LCN
