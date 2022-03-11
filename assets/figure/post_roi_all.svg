@@ -42,7 +42,7 @@
 <rect x='64.55' y='68.85' width='3.04' height='15.76' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='67.92' y='70.58' width='3.04' height='14.03' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='71.30' y='84.61' width='3.04' height='22.17' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='74.67' y='50.22' width='3.04' height='34.39' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A;' />
+<rect x='74.67' y='50.22' width='3.04' height='34.39' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='78.05' y='62.68' width='3.04' height='21.93' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='81.42' y='65.04' width='3.04' height='19.57' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='84.79' y='70.66' width='3.04' height='13.95' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
@@ -60,9 +60,9 @@
 <rect x='125.29' y='59.17' width='3.04' height='25.44' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='128.66' y='70.44' width='3.04' height='14.17' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='132.04' y='26.70' width='3.04' height='57.91' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A;' />
-<rect x='135.41' y='50.69' width='3.04' height='33.92' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A;' />
+<rect x='135.41' y='50.69' width='3.04' height='33.92' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='138.79' y='84.61' width='3.04' height='23.51' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='142.16' y='84.61' width='3.04' height='35.41' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F;' />
+<rect x='142.16' y='84.61' width='3.04' height='35.41' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
 <rect x='145.54' y='84.61' width='3.04' height='25.96' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
 <rect x='148.91' y='84.61' width='3.04' height='14.87' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
 <rect x='152.29' y='84.61' width='3.04' height='19.43' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
@@ -92,7 +92,7 @@
 <rect x='233.27' y='61.40' width='3.04' height='23.21' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='236.65' y='81.31' width='3.04' height='3.30' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='240.02' y='84.61' width='3.04' height='10.67' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='243.40' y='48.77' width='3.04' height='35.84' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A;' />
+<rect x='243.40' y='48.77' width='3.04' height='35.84' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='246.77' y='74.68' width='3.04' height='9.93' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='250.15' y='78.34' width='3.04' height='6.27' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='253.52' y='84.61' width='3.04' height='30.22' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
@@ -107,7 +107,7 @@
 <rect x='283.89' y='84.61' width='3.04' height='15.92' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
 <rect x='287.27' y='84.61' width='3.04' height='4.31' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
 <rect x='290.64' y='72.84' width='3.04' height='11.77' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='294.02' y='49.77' width='3.04' height='34.84' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A;' />
+<rect x='294.02' y='49.77' width='3.04' height='34.84' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='297.39' y='83.52' width='3.04' height='1.09' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
 <rect x='300.76' y='84.61' width='3.04' height='16.79' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
 <rect x='304.14' y='84.61' width='3.04' height='15.25' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />

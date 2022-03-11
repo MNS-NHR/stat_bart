@@ -271,7 +271,7 @@ for(i in 1:dim(cluster_unique)[1]){
       pre_array<-pre_orig_cluster_cormeansd[i,-1] %>% t() %>% as.data.frame() %>% drop_na()
       if(sum(pre_array$V1==0)!=length(pre_array$V1)){
         pre_array$ID<-rownames(pre_array)
-        pre_g<-merge(pre_array,pre_design,'ID') %>% hedges_g(V1~Group,data=.)
+        pre_g<-merge(pre_array,pre_design,'ID') %>% hedges_g(V1~Group,data=., ci=0.90)
         cluster_unique$pre[i]<-pre_g$Hedges_g
         cluster_unique$pre_L[i]<-pre_g$CI_low
         cluster_unique$pre_U[i]<-pre_g$CI_high
@@ -280,7 +280,7 @@ for(i in 1:dim(cluster_unique)[1]){
       peri_array<-peri_orig_cluster_cormeansd[i,-1] %>% t() %>% as.data.frame() %>% drop_na()
       if(sum(peri_array$V1==0)!=length(peri_array$V1)){
         peri_array$ID<-rownames(peri_array)
-        peri_g<-merge(peri_array,peri_design,'ID')  %>%  hedges_g(V1~Group,data=.)
+        peri_g<-merge(peri_array,peri_design,'ID')  %>%  hedges_g(V1~Group,data=., ci=0.90)
         cluster_unique$peri[i]<-peri_g$Hedges_g
         cluster_unique$peri_L[i]<-peri_g$CI_low
         cluster_unique$peri_U[i]<-peri_g$CI_high
@@ -289,7 +289,7 @@ for(i in 1:dim(cluster_unique)[1]){
       post_array<-post_orig_cluster_cormeansd[i,-1] %>% t() %>% as.data.frame() %>% drop_na()
       if(sum(post_array$V1==0)!=length(post_array$V1)){
         post_array$ID<-rownames(post_array)
-        post_g<-merge(post_array,post_design,'ID') %>% hedges_g(V1~Group,data=.)
+        post_g<-merge(post_array,post_design,'ID') %>% hedges_g(V1~Group,data=., ci=0.90)
         cluster_unique$post[i]<-post_g$Hedges_g
         cluster_unique$post_L[i]<-post_g$CI_low
         cluster_unique$post_U[i]<-post_g$CI_high
@@ -309,9 +309,9 @@ cluster_unique$peri_thr<-ifelse(abs(cluster_unique$peri)>thres,1,0.5)
 cluster_unique$post_thr<-ifelse(abs(cluster_unique$post)>thres,1,0.5)
 
 # uncomment if you want alpha in plots based on CI
-#cluster_unique$pre_thr<-ifelse((cluster_unique$pre_L > 0 & cluster_unique$pre_U > 0) | (cluster_unique$pre_L < 0 & cluster_unique$pre_U < 0),1,0.5)
-#cluster_unique$peri_thr<-ifelse((cluster_unique$peri_L > 0 & cluster_unique$peri_U > 0) | (cluster_unique$peri_L < 0 & cluster_unique$peri_U < 0),1,0.5)
-#cluster_unique$post_thr<-ifelse((cluster_unique$post_L > 0 & cluster_unique$post_U > 0) | (cluster_unique$post_L < 0 & cluster_unique$post_U < 0),1,0.5)
+cluster_unique$pre_thr<-ifelse((cluster_unique$pre_L > 0 & cluster_unique$pre_U > 0) | (cluster_unique$pre_L < 0 & cluster_unique$pre_U < 0),1,0.5)
+cluster_unique$peri_thr<-ifelse((cluster_unique$peri_L > 0 & cluster_unique$peri_U > 0) | (cluster_unique$peri_L < 0 & cluster_unique$peri_U < 0),1,0.5)
+cluster_unique$post_thr<-ifelse((cluster_unique$post_L > 0 & cluster_unique$post_U > 0) | (cluster_unique$post_L < 0 & cluster_unique$post_U < 0),1,0.5)
 
 p_pre<-ggplot(cluster_unique,aes(x=name,y=pre,alpha=pre_thr,fill=as.factor(sign(pre))))
 p_pre_plot<- p_pre+geom_bar(stat = 'identity')+scale_fill_manual(values=c("1"="#c3834aff","-1"="#44708fff"))+ylim(-1.7,1.7)+theme_classic()+ theme(legend.position = "none")+
@@ -338,9 +338,9 @@ p_post_plot<- p_post+geom_bar(stat = 'identity')+scale_fill_manual(values=c("1"=
 library(gdata)
 
 #ROIs to plot
-#Pre-trauma: lOrb 32, mPAL 77 (excluding), medial septal complex (78)
-#Peri-trauma: aVis 20 & dRSP 39
-#Post-trauma: lOrb & dRSP 39
+#Pre-trauma: lOrb 26, mPAL 71 
+#Peri-trauma: pVis 19 & dRSP 33
+#Post-trauma: lOrb & dRSP 33
 
 #load cluster data
 pre_orig_cluster_cormeansd <- read_csv('assets/table/pre_roi_cluster.csv', show_col_types = FALSE) 
@@ -356,24 +356,25 @@ cluster_unique <- read_csv('assets/table/roi_cluster_stat.csv')
 
 cluster_unique$name <- factor(cluster_unique$name, levels = cluster_unique$name)
 
-i_list<-c(20, 32, 39, 78)
+i_list<-c(19, 26, 33, 71)
 for(i in i_list){
 pre_array<-pre_orig_cluster_cormeansd[i,-1] %>% t() %>% as.data.frame() %>% drop_na()
 pre_array$ID<-rownames(pre_array)
+roi_id<-cluster_unique$name[i]
 pre_g<-merge(pre_array,pre_design,'ID') %>% mutate(Condition='pre') %>% select(V1,Group,Condition)
-cbindX(tibble('Resilient'=pre_g$V1[pre_g$Group=='Resilient']),tibble('PTS-like'=pre_g$V1[pre_g$Group=='PTSD-like'])) %>% write_csv(glue('assets/table/dabest/pre_{i}.csv'))
+cbindX(tibble('Resilient'=pre_g$V1[pre_g$Group=='Resilient']),tibble('Susceptible'=pre_g$V1[pre_g$Group=='PTSD-like'])) %>% write_csv(glue('assets/table/dabest/pre_{roi_id}.csv'))
 
         
 peri_array<-peri_orig_cluster_cormeansd[i,-1] %>% t() %>% as.data.frame() %>% drop_na()
 peri_array$ID<-rownames(peri_array)
 peri_g<-merge(peri_array,peri_design,'ID') %>% mutate(Condition='peri') %>% select(V1,Group,Condition)
-cbindX(tibble('Resilient'=peri_g$V1[peri_g$Group=='Resilient']),tibble('PTS-like'=peri_g$V1[peri_g$Group=='PTSD-like'])) %>% write_csv(glue('assets/table/dabest/peri_{i}.csv'))
+cbindX(tibble('Resilient'=peri_g$V1[peri_g$Group=='Resilient']),tibble('Susceptible'=peri_g$V1[peri_g$Group=='PTSD-like'])) %>% write_csv(glue('assets/table/dabest/peri_{roi_id}.csv'))
 
 
 post_array<-post_orig_cluster_cormeansd[i,-1] %>% t() %>% as.data.frame() %>% drop_na()
 post_array$ID<-rownames(post_array)
 post_g<-merge(post_array,post_design,'ID') %>% mutate(Condition='post') %>% select(V1,Group,Condition)
-cbindX(tibble('Resilient'=post_g$V1[post_g$Group=='Resilient']),tibble('PTS-like'=post_g$V1[post_g$Group=='PTSD-like'])) %>% write_csv(glue('assets/table/dabest/post_{i}.csv'))
+cbindX(tibble('Resilient'=post_g$V1[post_g$Group=='Resilient']),tibble('Susceptible'=post_g$V1[post_g$Group=='PTSD-like'])) %>% write_csv(glue('assets/table/dabest/post_{roi_id}.csv'))
 
 
 }
@@ -406,9 +407,9 @@ pre_orig_raw <- pre_orig_raw[-1,]
 peri_orig_raw <- peri_orig_raw[-1,]
 post_orig_raw <- post_orig_raw[-1,]
 
-pre_orig_cluster <- pre_orig_raw[0,] %>% select(-id, -structure_order, -parent_id) %>% add_column(network,.before=names(.)[1])
-peri_orig_cluster <- peri_orig_raw[0,] %>% select(-id, -structure_order, -parent_id)%>% add_column(network,.before=names(.)[1])
-post_orig_cluster <- post_orig_raw[0,] %>% select(-id, -structure_order, -parent_id)%>% add_column(network,.before=names(.)[1])
+pre_orig_cluster <- pre_orig_raw[0,] %>% select(-id, -structure_order, -parent_id) %>% add_column(network=NA,.before=names(.)[1]) %>% mutate(network=as.character(network))
+peri_orig_cluster <- peri_orig_raw[0,] %>% select(-id, -structure_order, -parent_id) %>% add_column(network=NA,.before=names(.)[1]) %>% mutate(network=as.character(network))
+post_orig_cluster <- post_orig_raw[0,] %>% select(-id, -structure_order, -parent_id) %>% add_column(network=NA,.before=names(.)[1]) %>% mutate(network=as.character(network))
 
 
 
@@ -529,7 +530,16 @@ ggsave('assets/figure/post_corr_diff.svg',plot=p,device = 'svg',units = 'mm',dpi
 
 network.df<-data.frame(network=pre_orig_cluster$network, x=1:length(pre_orig_cluster$network), y=1:length(pre_orig_cluster$network))
 
-cor.df<-tibble() %>% add_column(network=NA,pre_g=NA,  peri_g=NA, post_g=NA) %>% mutate(network=as.character(network), pre_g=as.double(pre_g), peri_g=as.double(peri_g), post_g=as.double(post_g))
+cor.df<-tibble() %>% add_column(network=NA,pre_g=NA, pre_L=NA, pre_U=NA, peri_g=NA,peri_L=NA, peri_U=NA, post_g=NA, post_L=NA, post_U=NA) %>% mutate(network=as.character(network), 
+                           pre_g=as.double(pre_g), 
+                           pre_L=as.double(pre_L),
+                           pre_U=as.double(pre_U),
+                           peri_g=as.double(peri_g), 
+                           peri_L=as.double(peri_L),
+                           peri_U=as.double(peri_U),
+                           post_g=as.double(post_g),
+                           post_L=as.double(post_L),
+                           post_U=as.double(post_U))
 
 # now we do the second part
 d2.pre_res <- reshape2::melt(pre_res_cor, c("x", "y"), value.name = "z") %>% filter(.$y < .$x)
@@ -555,15 +565,29 @@ d2.post_ptsd<-d2.post_ptsd %>% left_join(network.df, by = 'x') %>% rename(y=y.x,
 
 for(i in 1:length(unique(d2.pre_res$networkpair))){
   cor.df<-cor.df %>% add_row(network=unique(d2.pre_res$networkpair)[i],
-                             pre_g=hedges_g(d2.pre_ptsd$z[d2.pre_ptsd$networkpair==unique(d2.pre_res$networkpair)[i]],d2.pre_res$z[d2.pre_res$networkpair==unique(d2.pre_res$networkpair)[i]])$Hedges_g,
-                             peri_g=hedges_g(d2.peri_ptsd$z[d2.peri_ptsd$networkpair==unique(d2.peri_res$networkpair)[i]],d2.peri_res$z[d2.peri_res$networkpair==unique(d2.peri_res$networkpair)[i]])$Hedges_g,
-                             post_g=hedges_g(d2.post_ptsd$z[d2.post_ptsd$networkpair==unique(d2.post_res$networkpair)[i]],d2.post_res$z[d2.post_res$networkpair==unique(d2.post_res$networkpair)[i]])$Hedges_g)
+                             pre_g=hedges_g(d2.pre_ptsd$z[d2.pre_ptsd$networkpair==unique(d2.pre_res$networkpair)[i]],d2.pre_res$z[d2.pre_res$networkpair==unique(d2.pre_res$networkpair)[i]], ci=0.90)$Hedges_g,
+                             pre_L=hedges_g(d2.pre_ptsd$z[d2.pre_ptsd$networkpair==unique(d2.pre_res$networkpair)[i]],d2.pre_res$z[d2.pre_res$networkpair==unique(d2.pre_res$networkpair)[i]], ci=0.90)$CI_low,
+                             pre_U=hedges_g(d2.pre_ptsd$z[d2.pre_ptsd$networkpair==unique(d2.pre_res$networkpair)[i]],d2.pre_res$z[d2.pre_res$networkpair==unique(d2.pre_res$networkpair)[i]], ci=0.90)$CI_high,
+                             
+                             peri_g=hedges_g(d2.peri_ptsd$z[d2.peri_ptsd$networkpair==unique(d2.peri_res$networkpair)[i]],d2.peri_res$z[d2.peri_res$networkpair==unique(d2.peri_res$networkpair)[i]], ci=0.90)$Hedges_g,
+                             peri_L=hedges_g(d2.peri_ptsd$z[d2.peri_ptsd$networkpair==unique(d2.peri_res$networkpair)[i]],d2.peri_res$z[d2.peri_res$networkpair==unique(d2.peri_res$networkpair)[i]], ci=0.90)$CI_low,
+                             peri_U=hedges_g(d2.peri_ptsd$z[d2.peri_ptsd$networkpair==unique(d2.peri_res$networkpair)[i]],d2.peri_res$z[d2.peri_res$networkpair==unique(d2.peri_res$networkpair)[i]], ci=0.90)$CI_high,
+                             
+                             post_g=hedges_g(d2.post_ptsd$z[d2.post_ptsd$networkpair==unique(d2.post_res$networkpair)[i]],d2.post_res$z[d2.post_res$networkpair==unique(d2.post_res$networkpair)[i]], ci=0.90)$Hedges_g,
+                             post_L=hedges_g(d2.post_ptsd$z[d2.post_ptsd$networkpair==unique(d2.post_res$networkpair)[i]],d2.post_res$z[d2.post_res$networkpair==unique(d2.post_res$networkpair)[i]], ci=0.90)$CI_low,
+                             post_U=hedges_g(d2.post_ptsd$z[d2.post_ptsd$networkpair==unique(d2.post_res$networkpair)[i]],d2.post_res$z[d2.post_res$networkpair==unique(d2.post_res$networkpair)[i]], ci=0.90)$CI_high)
 }
 
 thres<-0.4
 cor.df$pre_thr<-ifelse(abs(cor.df$pre_g)>thres,1,0.5)
 cor.df$peri_thr<-ifelse(abs(cor.df$peri_g)>thres,1,0.5)
 cor.df$post_thr<-ifelse(abs(cor.df$post_g)>thres,1,0.5)
+
+# uncomment if you want alpha in plots based on CI
+cor.df$pre_thr<-ifelse((cor.df$pre_L > 0 & cor.df$pre_U > 0) | (cor.df$pre_L < 0 & cor.df$pre_U < 0),1,0.5)
+cor.df$peri_thr<-ifelse((cor.df$peri_L > 0 & cor.df$peri_U > 0) | (cor.df$peri_L < 0 & cor.df$peri_U < 0),1,0.5)
+cor.df$post_thr<-ifelse((cor.df$post_L > 0 & cor.df$post_U > 0) | (cor.df$post_L < 0 & cor.df$post_U < 0),1,0.5)
+
 
 
 p_pre<-ggplot(cor.df,aes(x=network,y=pre_g,alpha=pre_thr,fill=as.factor(sign(pre_g))))
