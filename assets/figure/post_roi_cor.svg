@@ -9,6 +9,9 @@
       stroke-linejoin: round;
       stroke-miterlimit: 10.00;
     }
+    .svglite text {
+      white-space: pre;
+    }
   ]]></style>
 </defs>
 <rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
@@ -27,20 +30,20 @@
 </defs>
 <g clip-path='url(#cpMjguMTN8MzM0LjY4fDUuNDh8MjQwLjMz)'>
 <rect x='28.13' y='5.48' width='306.55' height='234.85' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='35.54' y='42.58' width='44.50' height='133.70' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='134.43' y='67.05' width='44.50' height='109.23' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A;' />
-<rect x='84.99' y='165.52' width='44.50' height='10.76' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='282.76' y='103.85' width='44.50' height='72.44' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A;' />
-<rect x='233.32' y='141.91' width='44.50' height='34.37' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='183.87' y='171.35' width='44.50' height='4.93' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='35.54' y='42.58' width='44.50' height='133.70' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='233.32' y='165.52' width='44.50' height='10.76' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='183.87' y='67.05' width='44.50' height='109.23' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A;' />
+<rect x='134.43' y='171.35' width='44.50' height='4.93' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='282.76' y='141.91' width='44.50' height='34.37' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='84.99' y='103.85' width='44.50' height='72.44' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A;' />
 </g>
 <g clip-path='url(#cpMC4wMHwzNDAuMTZ8MC4wMHwyODMuNDY=)'>
 <polyline points='28.13,240.33 28.13,5.48 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
-<text x='23.20' y='231.41' text-anchor='end' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='9.36px' lengthAdjust='spacingAndGlyphs'>-0.2</text>
-<text x='23.20' y='178.03' text-anchor='end' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='7.63px' lengthAdjust='spacingAndGlyphs'>0.0</text>
-<text x='23.20' y='124.66' text-anchor='end' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='7.63px' lengthAdjust='spacingAndGlyphs'>0.2</text>
-<text x='23.20' y='71.28' text-anchor='end' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='7.63px' lengthAdjust='spacingAndGlyphs'>0.4</text>
-<text x='23.20' y='17.90' text-anchor='end' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='7.63px' lengthAdjust='spacingAndGlyphs'>0.6</text>
+<text x='23.20' y='231.41' text-anchor='end' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='9.36px' lengthAdjust='spacingAndGlyphs'>-0.2</text>
+<text x='23.20' y='178.03' text-anchor='end' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='7.63px' lengthAdjust='spacingAndGlyphs'>0.0</text>
+<text x='23.20' y='124.66' text-anchor='end' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='7.63px' lengthAdjust='spacingAndGlyphs'>0.2</text>
+<text x='23.20' y='71.28' text-anchor='end' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='7.63px' lengthAdjust='spacingAndGlyphs'>0.4</text>
+<text x='23.20' y='17.90' text-anchor='end' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='7.63px' lengthAdjust='spacingAndGlyphs'>0.6</text>
 <polyline points='25.39,229.66 28.13,229.66 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='25.39,176.28 28.13,176.28 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='25.39,122.91 28.13,122.91 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
@@ -53,12 +56,12 @@
 <polyline points='206.12,243.07 206.12,240.33 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='255.57,243.07 255.57,240.33 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='305.01,243.07 305.01,240.33 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
-<text transform='translate(61.29,257.45) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='24.36px' lengthAdjust='spacingAndGlyphs'>DMN.DMN</text>
-<text transform='translate(110.74,257.45) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='22.55px' lengthAdjust='spacingAndGlyphs'>DMN.LCN</text>
-<text transform='translate(160.18,257.45) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='19.58px' lengthAdjust='spacingAndGlyphs'>DMN.SN</text>
-<text transform='translate(209.62,257.45) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='20.74px' lengthAdjust='spacingAndGlyphs'>LCN.LCN</text>
-<text transform='translate(259.07,257.45) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>SN.LCN</text>
-<text transform='translate(308.51,257.45) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='14.79px' lengthAdjust='spacingAndGlyphs'>SN.SN</text>
-<text transform='translate(9.85,122.91) rotate(-90)' text-anchor='middle' style='font-size: 6.00px; font-family: Liberation Sans;' textLength='29.99px' lengthAdjust='spacingAndGlyphs'>Hedge's g</text>
+<text transform='translate(61.29,257.45) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='24.36px' lengthAdjust='spacingAndGlyphs'>DMN.DMN</text>
+<text transform='translate(110.74,257.45) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='14.79px' lengthAdjust='spacingAndGlyphs'>SN.SN</text>
+<text transform='translate(160.18,257.45) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='20.74px' lengthAdjust='spacingAndGlyphs'>LCN.LCN</text>
+<text transform='translate(209.62,257.45) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='19.58px' lengthAdjust='spacingAndGlyphs'>DMN.SN</text>
+<text transform='translate(259.07,257.45) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='22.55px' lengthAdjust='spacingAndGlyphs'>DMN.LCN</text>
+<text transform='translate(308.51,257.45) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='17.76px' lengthAdjust='spacingAndGlyphs'>LCN.SN</text>
+<text transform='translate(9.85,122.91) rotate(-90)' text-anchor='middle' style='font-size: 6.00px; font-family: "DejaVu Sans";' textLength='29.99px' lengthAdjust='spacingAndGlyphs'>Hedge's g</text>
 </g>
 </svg>
