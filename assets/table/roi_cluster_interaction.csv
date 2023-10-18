@@ -1,0 +1,93 @@
+name,stress,stress_L,stress_U,inter,inter_L,inter_U
+"Frontal pole, cerebral cortex",NA,NA,NA,NA,NA,NA
+Primary motor area,NA,NA,NA,NA,NA,NA
+Secondary motor area,NA,NA,NA,NA,NA,NA
+"Primary somatosensory area, nose",NA,NA,NA,NA,NA,NA
+"Primary somatosensory area, barrel field",NA,NA,NA,NA,NA,NA
+"Primary somatosensory area, lower limb",NA,NA,NA,NA,NA,NA
+"Primary somatosensory area, mouth",NA,NA,NA,NA,NA,NA
+"Primary somatosensory area, upper limb",NA,NA,NA,NA,NA,NA
+"Primary somatosensory area, trunk",NA,NA,NA,NA,NA,NA
+Supplemental somatosensory area,NA,NA,NA,NA,NA,NA
+Gustatory areas,NA,NA,NA,NA,NA,NA
+Visceral area,NA,NA,NA,NA,NA,NA
+Dorsal auditory area,NA,NA,NA,NA,NA,NA
+Primary auditory area,NA,NA,NA,NA,NA,NA
+Ventral auditory area,NA,NA,NA,NA,NA,NA
+Anterolateral visual area,NA,NA,NA,NA,NA,NA
+Anteromedial visual area,NA,NA,NA,NA,NA,NA
+Lateral visual area,NA,NA,NA,NA,NA,NA
+Primary visual area,NA,NA,NA,NA,NA,NA
+Posterolateral visual area,NA,NA,NA,NA,NA,NA
+posteromedial visual area,NA,NA,NA,NA,NA,NA
+"Anterior cingulate area, dorsal part",NA,NA,NA,NA,NA,NA
+"Anterior cingulate area, ventral part",NA,NA,NA,NA,NA,NA
+Prelimbic area,NA,NA,NA,NA,NA,NA
+Infralimbic area,NA,NA,NA,NA,NA,NA
+"Orbital area, lateral part",NA,NA,NA,NA,NA,NA
+"Orbital area, medial part",NA,NA,NA,NA,NA,NA
+"Orbital area, ventral part",NA,NA,NA,NA,NA,NA
+"Agranular insular area, dorsal part",NA,NA,NA,NA,NA,NA
+"Agranular insular area, posterior part",NA,NA,NA,NA,NA,NA
+"Agranular insular area, ventral part",NA,NA,NA,NA,NA,NA
+"Retrosplenial area, lateral agranular part",NA,NA,NA,NA,NA,NA
+"Retrosplenial area, dorsal part",NA,NA,NA,NA,NA,NA
+"Retrosplenial area, ventral part",NA,NA,NA,NA,NA,NA
+Temporal association areas,NA,NA,NA,NA,NA,NA
+Perirhinal area,NA,NA,NA,NA,NA,NA
+Ectorhinal area,NA,NA,NA,NA,NA,NA
+Main olfactory bulb,NA,NA,NA,NA,NA,NA
+Accessory olfactory bulb,NA,NA,NA,NA,NA,NA
+Anterior olfactory nucleus,NA,NA,NA,NA,NA,NA
+Taenia tecta,NA,NA,NA,NA,NA,NA
+Dorsal peduncular area,NA,NA,NA,NA,NA,NA
+Piriform area,NA,NA,NA,NA,NA,NA
+Nucleus of the lateral olfactory tract,NA,NA,NA,NA,NA,NA
+Cortical amygdalar area,NA,NA,NA,NA,NA,NA
+Piriform-amygdalar area,NA,NA,NA,NA,NA,NA
+Postpiriform transition area,NA,NA,NA,NA,NA,NA
+Field CA1,NA,NA,NA,NA,NA,NA
+Field CA2,NA,NA,NA,NA,NA,NA
+Field CA3,NA,NA,NA,NA,NA,NA
+Field CA1 ventral,NA,NA,NA,NA,NA,NA
+Field CA2 ventral,NA,NA,NA,NA,NA,NA
+Field CA3 ventral,NA,NA,NA,NA,NA,NA
+Dentate gyrus,NA,NA,NA,NA,NA,NA
+Dentate gyrus ventral,NA,NA,NA,NA,NA,NA
+"Entorhinal area, lateral part",NA,NA,NA,NA,NA,NA
+"Entorhinal area, medial part, dorsal zone",NA,NA,NA,NA,NA,NA
+"Entorhinal area, medial part, ventral zone",NA,NA,NA,NA,NA,NA
+Parasubiculum,NA,NA,NA,NA,NA,NA
+Postsubiculum,NA,NA,NA,NA,NA,NA
+Presubiculum,NA,NA,NA,NA,NA,NA
+Subiculum,NA,NA,NA,NA,NA,NA
+Cortical subplate,NA,NA,NA,NA,NA,NA
+"Amygdala (BLA, BMA, LA)",NA,NA,NA,NA,NA,NA
+Striatum dorsal region,NA,NA,NA,NA,NA,NA
+Striatum ventral region,NA,NA,NA,NA,NA,NA
+Lateral septal complex,NA,NA,NA,NA,NA,NA
+Striatum-like amygdalar nuclei,NA,NA,NA,NA,NA,NA
+"Pallidum, dorsal region",NA,NA,NA,NA,NA,NA
+"Pallidum, ventral region",NA,NA,NA,NA,NA,NA
+"Pallidum, medial region",NA,NA,NA,NA,NA,NA
+"Pallidum, caudal region",NA,NA,NA,NA,NA,NA
+Ventral group of the dorsal thalamus,NA,NA,NA,NA,NA,NA
+"Geniculate group, dorsal thalamus",NA,NA,NA,NA,NA,NA
+Lateral group of the dorsal thalamus,NA,NA,NA,NA,NA,NA
+Anterior group of the dorsal thalamus,NA,NA,NA,NA,NA,NA
+Medial group of the dorsal thalamus,NA,NA,NA,NA,NA,NA
+Intralaminar nuclei of the dorsal thalamus,NA,NA,NA,NA,NA,NA
+"Geniculate group, ventral thalamus",NA,NA,NA,NA,NA,NA
+Periventricular zone,NA,NA,NA,NA,NA,NA
+Periventricular region,NA,NA,NA,NA,NA,NA
+Hypothalamic medial zone,NA,NA,NA,NA,NA,NA
+Lateral hypothalamic area,NA,NA,NA,NA,NA,NA
+"Midbrain, sensory related",NA,NA,NA,NA,NA,NA
+"Midbrain, motor related",NA,NA,NA,NA,NA,NA
+Periaqueductal gray,NA,NA,NA,NA,NA,NA
+Pretectal region,NA,NA,NA,NA,NA,NA
+"Midbrain, behavioral state related",NA,NA,NA,NA,NA,NA
+"Pons, sensory related",NA,NA,NA,NA,NA,NA
+"Pons, motor related",NA,NA,NA,NA,NA,NA
+"Pons, behavioral state related",NA,NA,NA,NA,NA,NA
+Medulla,NA,NA,NA,NA,NA,NA
