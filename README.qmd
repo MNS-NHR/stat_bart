@@ -179,6 +179,24 @@ peri_orig_cormean<-peri_orig_raw %>% select(-id, -structure_order, -parent_id,-n
 post_orig_cormean<-post_orig_raw %>% select(-id, -structure_order, -parent_id,-name) %>% mapply("/", ., colSums(.)) %>% as.tibble()   %>% mutate(name=pre_orig_raw$name)
 
 
+#addressing email of 29/8/2024
+#get total cell count per id
+pre_tmp<-pre_orig_raw %>% select(-id, -structure_order, -parent_id,-name) %>% colSums() %>% as.data.frame() %>% rename('total_cell'=1) %>% rownames_to_column('id') 
+#add a colum named 'group' with 'pre'
+pre_tmp$group<-'pre'
+
+#repeat for peri
+peri_tmp<-peri_orig_raw %>% select(-id, -structure_order, -parent_id,-name) %>% colSums() %>% as.data.frame() %>% rename('total_cell'=1) %>% rownames_to_column('id')
+peri_tmp$group<-'peri'
+
+#repeat for post
+post_tmp<-post_orig_raw %>% select(-id, -structure_order, -parent_id,-name) %>% colSums() %>% as.data.frame() %>% rename('total_cell'=1) %>% rownames_to_column('id')
+post_tmp$group<-'post'
+
+#merge the three dataframes
+total_cell<-rbind(pre_tmp,peri_tmp,post_tmp)
+write_csv(total_cell,'assets/table/total_cell.csv')
+
 
 
 # cluster the cell counts. 
@@ -376,7 +394,7 @@ cbindX(tibble('Resilient'=post_g$V1[post_g$Group=='Resilient']),tibble('Suscepti
 
 ### perform interaction effect betwee pre and peri.  (to be completed)
 ```r
-
+library(effectsize)
 library(multcomp)
 library(parameters)
 
@@ -394,7 +412,8 @@ cluster<-read_csv2('assets/script/roi_cluster_march22.csv', show_col_types = FAL
 
 # cluster the cell counts. 
 
-cluster_unique<-unique(cluster$Name) %>% as_tibble() %>% rename('name'='value') %>% add_column(stress=NA,stress_L=NA, stress_U=NA, inter=NA, inter_L=NA, inter_U=NA)
+#adding peripre tests to address email of 29/8/2024
+cluster_unique<-unique(cluster$Name) %>% as_tibble() %>% rename('name'='value') %>% add_column(stress=NA,stress_L=NA, stress_U=NA, inter=NA, inter_L=NA, inter_U=NA, peripre_res=NA, peripre_res_L=NA, peripre_res_U=NA, peripre_ptsd=NA, peripre_ptsd_L=NA, peripre_ptsd_U=NA)
 
 for(i in 1:dim(cluster_unique)[1]){
 
@@ -441,6 +460,17 @@ for(i in 1:dim(cluster_unique)[1]){
         cluster_unique$inter[i]<-model_parameters$Coefficient[4]
         cluster_unique$inter_L[i]<-model_parameters$CI_low[4]
         cluster_unique$inter_U[i]<-model_parameters$CI_high[4]
+        
+        g <- hedges_g(df$V1[df$Condition=='peri' & df$Group=='Resilient'], df$V1[df$Condition=='pre' & df$Group=='Resilient'])
+        cluster_unique$peripre_res[i]<-g$Hedges_g
+        cluster_unique$peripre_res_L[i]<-g$CI_low
+        cluster_unique$peripre_res_U[i]<-g$CI_high
+
+        g <- hedges_g(df$V1[df$Condition=='peri' & df$Group=='PTSD-like'], df$V1[df$Condition=='pre' & df$Group=='PTSD-like'])
+        cluster_unique$peripre_ptsd[i]<-g$Hedges_g
+        cluster_unique$peripre_ptsd_L[i]<-g$CI_low
+        cluster_unique$peripre_ptsd_U[i]<-g$CI_high
+
 
       }
 }
@@ -466,6 +496,22 @@ p_inter_plot<- p_inter+geom_bar(stat = 'identity')+scale_fill_manual(values=c("1
  ggsave('assets/figure/inter_roi_all.svg',plot = p_inter_plot,device='svg',units='mm', dpi=300, width=120, height=100)
 
 
+cluster_unique$peripre_res_thr<-ifelse((cluster_unique$peripre_res_L > 0 & cluster_unique$peripre_res_U > 0) | (cluster_unique$peripre_res_L < 0 & cluster_unique$peripre_res_U < 0),1,0.5)
+
+p_peripre_res<-ggplot(cluster_unique,aes(x=name,y=peripre_res,alpha=peripre_res_thr,fill=as.factor(sign(peripre_res))))
+p_peripre_res_plot<- p_peripre_res+geom_bar(stat = 'identity')+scale_fill_manual(values=c("1"="#c3834aff","-1"="#44708fff"))+ylim(-4,4)+theme_classic()+ theme(legend.position = "none")+
+  theme(text=element_text(size=6),axis.text.x = element_text(angle = 90 ))+labs(x='',y=bquote(Peri_res > Pre_res))
+ 
+ ggsave('assets/figure/peri_pre_resilient_roi.svg',plot = p_peripre_res_plot,device='svg',units='mm', dpi=300, width=120, height=100)
+
+cluster_unique$peripre_ptsd_thr<-ifelse((cluster_unique$peripre_ptsd_L > 0 & cluster_unique$peripre_ptsd_U > 0) | (cluster_unique$peripre_ptsd_L < 0 & cluster_unique$peripre_ptsd_U < 0),1,0.5)
+
+p_peripre_ptsd<-ggplot(cluster_unique,aes(x=name,y=peripre_ptsd,alpha=peripre_ptsd_thr,fill=as.factor(sign(peripre_ptsd))))
+p_peripre_ptsd_plot<- p_peripre_ptsd+geom_bar(stat = 'identity')+scale_fill_manual(values=c("1"="#c3834aff","-1"="#44708fff"))+ylim(-4,4)+theme_classic()+ theme(legend.position = "none")+
+  theme(text=element_text(size=6),axis.text.x = element_text(angle = 90 ))+labs(x='',y=bquote(Peri_ptsd > Pre_ptsd))
+ 
+ ggsave('assets/figure/peri_pre_ptsd_roi.svg',plot = p_peripre_ptsd_plot,device='svg',units='mm', dpi=300, width=120, height=100)
+ 
 ```
 
 
@@ -825,7 +871,7 @@ ggsave('assets/figure/post_corr_diff.svg',plot=p,device = 'svg',units = 'mm',dpi
 
 network.df<-data.frame(network=pre_orig_cluster$network, x=1:length(pre_orig_cluster$network), y=1:length(pre_orig_cluster$network))
 
-cor.df<-tibble() %>% add_column(network=NA,pre_g=NA, pre_L=NA, pre_U=NA, peri_g=NA,peri_L=NA, peri_U=NA, post_g=NA, post_L=NA, post_U=NA, res_mean=NA) %>% mutate(network=as.character(network), 
+cor.df<-tibble() %>% add_column(network=NA,pre_g=NA, pre_L=NA, pre_U=NA, peri_g=NA,peri_L=NA, peri_U=NA, post_g=NA, post_L=NA, post_U=NA, res_mean=NA, res_g=NA, res_L=NA, res_U=NA) %>% mutate(network=as.character(network), 
                            pre_g=as.double(pre_g), 
                            pre_L=as.double(pre_L),
                            pre_U=as.double(pre_U),
@@ -835,7 +881,10 @@ cor.df<-tibble() %>% add_column(network=NA,pre_g=NA, pre_L=NA, pre_U=NA, peri_g=
                            post_g=as.double(post_g),
                            post_L=as.double(post_L),
                            post_U=as.double(post_U),
-                           res_mean=as.double(res_mean))
+                           res_mean=as.double(res_mean),
+                           res_g=as.double(res_g),
+                           res_L=as.double(res_L),
+                           res_U=as.double(res_U))
 
 # now we do the second part
 d2.pre_res <- reshape2::melt(pre_res_cor, c("x", "y"), value.name = "z") %>% filter(.$y < .$x)
@@ -875,7 +924,18 @@ for(i in 1:length(unique(d2.pre_res$networkpair))){
 
                              res_mean=mean(c(d2.pre_res$z[d2.pre_res$networkpair==unique(d2.pre_res$networkpair)[i]], 
                                             d2.peri_res$z[d2.peri_res$networkpair==unique(d2.peri_res$networkpair)[i]], 
-                                            d2.post_res$z[d2.post_res$networkpair==unique(d2.post_res$networkpair)[i]])))
+                                            d2.post_res$z[d2.post_res$networkpair==unique(d2.post_res$networkpair)[i]])),
+                             
+                             res_g=hedges_g(c(d2.pre_res$z[d2.pre_res$networkpair==unique(d2.pre_res$networkpair)[i]], 
+                                            d2.peri_res$z[d2.peri_res$networkpair==unique(d2.peri_res$networkpair)[i]], 
+                                            d2.post_res$z[d2.post_res$networkpair==unique(d2.post_res$networkpair)[i]]), ci=0.90)$Hedges_g,
+                             res_L=hedges_g(c(d2.pre_res$z[d2.pre_res$networkpair==unique(d2.pre_res$networkpair)[i]], 
+                                            d2.peri_res$z[d2.peri_res$networkpair==unique(d2.peri_res$networkpair)[i]], 
+                                            d2.post_res$z[d2.post_res$networkpair==unique(d2.post_res$networkpair)[i]]), ci=0.90)$CI_low,
+                             res_U=hedges_g(c(d2.pre_res$z[d2.pre_res$networkpair==unique(d2.pre_res$networkpair)[i]], 
+                                            d2.peri_res$z[d2.peri_res$networkpair==unique(d2.peri_res$networkpair)[i]], 
+                                            d2.post_res$z[d2.post_res$networkpair==unique(d2.post_res$networkpair)[i]]), ci=0.90)$CI_high
+)
 
 }
 
