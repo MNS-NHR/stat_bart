@@ -9,6 +9,9 @@
       stroke-linejoin: round;
       stroke-miterlimit: 10.00;
     }
+    .svglite text {
+      white-space: pre;
+    }
   ]]></style>
 </defs>
 <rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
@@ -18,7 +21,7 @@
   </clipPath>
 </defs>
 <g clip-path='url(#cpMC4wMHwzNDAuMTZ8MC4wMHwyODMuNDY=)'>
-<rect x='0.00' y='0.00' width='340.16' height='283.46' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
+<rect x='0.000000000000032' y='0.00' width='340.16' height='283.46' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
 </g>
 <defs>
   <clipPath id='cpMjMuNTV8MzM0LjY4fDUuNDh8MTYzLjc0'>
@@ -27,104 +30,104 @@
 </defs>
 <g clip-path='url(#cpMjMuNTV8MzM0LjY4fDUuNDh8MTYzLjc0)'>
 <rect x='23.55' y='5.48' width='311.13' height='158.26' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='24.05' y='84.61' width='3.04' height='0.44' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='27.43' y='67.36' width='3.04' height='17.25' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='30.80' y='84.61' width='3.04' height='2.47' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='34.18' y='74.55' width='3.04' height='10.06' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='37.55' y='84.61' width='3.04' height='3.47' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='40.93' y='78.75' width='3.04' height='5.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='44.30' y='84.35' width='3.04' height='0.26' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='47.68' y='83.22' width='3.04' height='1.39' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='51.05' y='84.61' width='3.04' height='19.47' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='54.42' y='81.66' width='3.04' height='2.95' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='57.80' y='81.48' width='3.04' height='3.13' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='61.17' y='84.61' width='3.04' height='0.62' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='64.55' y='84.61' width='3.04' height='6.08' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='67.92' y='76.32' width='3.04' height='8.29' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='71.30' y='79.49' width='3.04' height='5.12' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='74.67' y='84.61' width='3.04' height='14.53' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='78.05' y='84.61' width='3.04' height='12.63' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='81.42' y='79.21' width='3.04' height='5.40' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='84.79' y='84.61' width='3.04' height='6.15' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='88.17' y='84.61' width='3.04' height='20.08' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='91.54' y='81.07' width='3.04' height='3.54' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='94.92' y='84.61' width='3.04' height='23.66' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='98.29' y='84.61' width='3.04' height='36.60' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F;' />
-<rect x='101.67' y='84.61' width='3.04' height='26.33' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='105.04' y='84.61' width='3.04' height='18.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='108.42' y='31.27' width='3.04' height='53.34' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A;' />
-<rect x='111.79' y='84.61' width='3.04' height='12.37' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='115.17' y='80.74' width='3.04' height='3.87' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='118.54' y='55.69' width='3.04' height='28.92' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='121.91' y='84.61' width='3.04' height='19.78' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='125.29' y='74.28' width='3.04' height='10.33' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='128.66' y='84.61' width='3.04' height='25.79' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='132.04' y='84.61' width='3.04' height='24.15' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='135.41' y='84.61' width='3.04' height='40.61' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F;' />
-<rect x='138.79' y='84.61' width='3.04' height='10.42' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='142.16' y='84.61' width='3.04' height='18.56' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='145.54' y='84.61' width='3.04' height='19.40' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='148.91' y='55.80' width='3.04' height='28.81' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='152.29' y='59.05' width='3.04' height='25.56' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='155.66' y='84.25' width='3.04' height='0.36' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='159.03' y='82.14' width='3.04' height='2.47' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='162.41' y='84.61' width='3.04' height='3.09' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='165.78' y='78.29' width='3.04' height='6.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='169.16' y='80.85' width='3.04' height='3.76' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='172.53' y='84.61' width='3.04' height='14.18' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='175.91' y='84.61' width='3.04' height='2.10' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='179.28' y='78.20' width='3.04' height='6.41' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='182.66' y='84.61' width='3.04' height='23.64' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='186.03' y='84.61' width='3.04' height='36.71' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F;' />
-<rect x='189.41' y='84.61' width='3.04' height='18.64' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='192.78' y='84.61' width='3.04' height='23.64' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='196.15' y='84.61' width='3.04' height='36.71' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F;' />
-<rect x='199.53' y='84.61' width='3.04' height='18.64' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='202.90' y='84.61' width='3.04' height='21.79' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='206.28' y='84.61' width='3.04' height='21.79' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='209.65' y='84.61' width='3.04' height='12.91' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='213.03' y='84.61' width='3.04' height='13.00' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='216.40' y='84.61' width='3.04' height='14.63' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='219.78' y='84.61' width='3.04' height='10.50' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='223.15' y='84.61' width='3.04' height='29.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='226.52' y='84.61' width='3.04' height='11.85' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='229.90' y='84.61' width='3.04' height='23.26' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='233.27' y='75.73' width='3.04' height='8.88' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='236.65' y='77.98' width='3.04' height='6.63' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='240.02' y='84.61' width='3.04' height='36.15' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='243.40' y='47.18' width='3.04' height='37.43' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A;' />
-<rect x='246.77' y='84.61' width='3.04' height='14.84' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='250.15' y='84.61' width='3.04' height='14.63' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='253.52' y='84.61' width='3.04' height='7.34' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='256.90' y='84.61' width='3.04' height='5.40' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='260.27' y='37.74' width='3.04' height='46.87' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A;' />
-<rect x='263.64' y='84.61' width='3.04' height='13.49' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='267.02' y='84.61' width='3.04' height='49.68' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F;' />
-<rect x='270.39' y='84.61' width='3.04' height='12.23' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='273.77' y='84.61' width='3.04' height='31.62' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='277.14' y='84.61' width='3.04' height='5.19' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='280.52' y='80.32' width='3.04' height='4.29' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='283.89' y='84.61' width='3.04' height='13.87' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='287.27' y='61.50' width='3.04' height='23.11' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='290.64' y='84.61' width='3.04' height='3.04' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
-<rect x='294.02' y='55.88' width='3.04' height='28.73' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='297.39' y='61.85' width='3.04' height='22.76' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='300.76' y='59.73' width='3.04' height='24.88' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='304.14' y='66.25' width='3.04' height='18.36' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='307.51' y='61.17' width='3.04' height='23.44' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='310.89' y='67.71' width='3.04' height='16.90' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='314.26' y='83.40' width='3.04' height='1.21' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='317.64' y='69.55' width='3.04' height='15.06' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='321.01' y='69.06' width='3.04' height='15.55' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='324.39' y='63.52' width='3.04' height='21.09' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='327.76' y='54.65' width='3.04' height='29.96' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
-<rect x='331.13' y='84.61' width='3.04' height='16.06' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='24.05' y='84.61' width='3.04' height='0.44' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='27.43' y='67.36' width='3.04' height='17.25' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='30.80' y='84.61' width='3.04' height='2.47' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='34.18' y='74.55' width='3.04' height='10.06' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='37.55' y='84.61' width='3.04' height='3.47' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='40.93' y='78.75' width='3.04' height='5.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='44.30' y='84.35' width='3.04' height='0.26' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='47.68' y='83.22' width='3.04' height='1.39' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='51.05' y='84.61' width='3.04' height='19.47' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='54.42' y='81.66' width='3.04' height='2.95' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='57.80' y='81.48' width='3.04' height='3.13' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='61.17' y='84.61' width='3.04' height='0.62' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='64.55' y='84.61' width='3.04' height='6.08' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='67.92' y='76.32' width='3.04' height='8.29' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='71.30' y='79.49' width='3.04' height='5.12' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='74.67' y='84.61' width='3.04' height='14.53' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='78.05' y='84.61' width='3.04' height='12.63' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='81.42' y='79.21' width='3.04' height='5.40' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='84.79' y='84.61' width='3.04' height='6.15' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='88.17' y='84.61' width='3.04' height='20.08' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='91.54' y='81.07' width='3.04' height='3.54' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='94.92' y='84.61' width='3.04' height='23.66' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='98.29' y='84.61' width='3.04' height='36.60' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F;' />
+<rect x='101.67' y='84.61' width='3.04' height='26.33' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='105.04' y='84.61' width='3.04' height='18.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='108.42' y='31.27' width='3.04' height='53.34' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A;' />
+<rect x='111.79' y='84.61' width='3.04' height='12.37' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='115.17' y='80.74' width='3.04' height='3.87' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='118.54' y='55.69' width='3.04' height='28.92' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='121.91' y='84.61' width='3.04' height='19.78' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='125.29' y='74.28' width='3.04' height='10.33' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='128.66' y='84.61' width='3.04' height='25.79' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='132.04' y='84.61' width='3.04' height='24.15' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='135.41' y='84.61' width='3.04' height='40.61' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F;' />
+<rect x='138.79' y='84.61' width='3.04' height='10.42' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='142.16' y='84.61' width='3.04' height='18.56' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='145.54' y='84.61' width='3.04' height='19.40' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='148.91' y='55.80' width='3.04' height='28.81' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='152.29' y='59.05' width='3.04' height='25.56' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='155.66' y='84.25' width='3.04' height='0.36' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='159.03' y='82.14' width='3.04' height='2.47' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='162.41' y='84.61' width='3.04' height='3.09' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='165.78' y='78.29' width='3.04' height='6.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='169.16' y='80.85' width='3.04' height='3.76' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='172.53' y='84.61' width='3.04' height='14.18' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='175.91' y='84.61' width='3.04' height='2.10' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='179.28' y='78.20' width='3.04' height='6.41' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='182.66' y='84.61' width='3.04' height='23.64' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='186.03' y='84.61' width='3.04' height='36.71' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F;' />
+<rect x='189.41' y='84.61' width='3.04' height='18.64' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='192.78' y='84.61' width='3.04' height='15.18' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='196.15' y='84.61' width='3.04' height='24.41' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='199.53' y='84.61' width='3.04' height='14.30' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='202.90' y='84.61' width='3.04' height='21.79' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='206.28' y='84.61' width='3.04' height='15.36' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='209.65' y='84.61' width='3.04' height='12.91' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='213.03' y='84.61' width='3.04' height='13.00' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='216.40' y='84.61' width='3.04' height='14.63' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='219.78' y='84.61' width='3.04' height='10.50' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='223.15' y='84.61' width='3.04' height='29.86' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='226.52' y='84.61' width='3.04' height='11.85' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='229.90' y='84.61' width='3.04' height='23.26' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='233.27' y='75.73' width='3.04' height='8.88' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='236.65' y='77.98' width='3.04' height='6.63' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='240.02' y='84.61' width='3.04' height='36.15' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='243.40' y='47.18' width='3.04' height='37.43' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A;' />
+<rect x='246.77' y='84.61' width='3.04' height='14.84' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='250.15' y='84.61' width='3.04' height='14.63' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='253.52' y='84.61' width='3.04' height='7.34' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='256.90' y='84.61' width='3.04' height='5.40' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='260.27' y='37.74' width='3.04' height='46.87' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A;' />
+<rect x='263.64' y='84.61' width='3.04' height='13.49' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='267.02' y='84.61' width='3.04' height='49.68' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F;' />
+<rect x='270.39' y='84.61' width='3.04' height='12.23' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='273.77' y='84.61' width='3.04' height='31.62' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='277.14' y='84.61' width='3.04' height='5.19' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='280.52' y='80.32' width='3.04' height='4.29' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='283.89' y='84.61' width='3.04' height='13.87' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='287.27' y='61.50' width='3.04' height='23.11' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='290.64' y='84.61' width='3.04' height='3.04' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
+<rect x='294.02' y='55.88' width='3.04' height='28.73' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='297.39' y='61.85' width='3.04' height='22.76' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='300.76' y='59.73' width='3.04' height='24.88' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='304.14' y='66.25' width='3.04' height='18.36' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='307.51' y='61.17' width='3.04' height='23.44' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='310.89' y='67.71' width='3.04' height='16.90' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='314.26' y='83.40' width='3.04' height='1.21' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='317.64' y='69.55' width='3.04' height='15.06' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='321.01' y='69.06' width='3.04' height='15.55' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='324.39' y='63.52' width='3.04' height='21.09' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='327.76' y='54.65' width='3.04' height='29.96' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #C3834A; fill-opacity: 0.10;' />
+<rect x='331.13' y='84.61' width='3.04' height='16.06' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #44708F; fill-opacity: 0.10;' />
 </g>
 <g clip-path='url(#cpMC4wMHwzNDAuMTZ8MC4wMHwyODMuNDY=)'>
 <polyline points='23.55,163.74 23.55,5.48 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
-<text x='18.62' y='128.67' text-anchor='end' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='4.78px' lengthAdjust='spacingAndGlyphs'>-1</text>
-<text x='18.62' y='86.36' text-anchor='end' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='3.05px' lengthAdjust='spacingAndGlyphs'>0</text>
-<text x='18.62' y='44.04' text-anchor='end' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='3.05px' lengthAdjust='spacingAndGlyphs'>1</text>
+<text x='18.62' y='128.67' text-anchor='end' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='4.78px' lengthAdjust='spacingAndGlyphs'>-1</text>
+<text x='18.62' y='86.36' text-anchor='end' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='3.05px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='18.62' y='44.04' text-anchor='end' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='3.05px' lengthAdjust='spacingAndGlyphs'>1</text>
 <polyline points='20.81,126.92 23.55,126.92 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='20.81,84.61 23.55,84.61 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='20.81,42.29 23.55,42.29 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
@@ -221,98 +224,98 @@
 <polyline points='325.90,166.48 325.90,163.74 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='329.28,166.48 329.28,163.74 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='332.65,166.48 332.65,163.74 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
-<text transform='translate(29.07,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='67.57px' lengthAdjust='spacingAndGlyphs'>Frontal pole, cerebral cortex</text>
-<text transform='translate(32.45,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='46.66px' lengthAdjust='spacingAndGlyphs'>Primary motor area</text>
-<text transform='translate(35.82,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='53.52px' lengthAdjust='spacingAndGlyphs'>Secondary motor area</text>
-<text transform='translate(39.19,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='83.33px' lengthAdjust='spacingAndGlyphs'>Primary somatosensory area, nose</text>
-<text transform='translate(42.57,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='97.80px' lengthAdjust='spacingAndGlyphs'>Primary somatosensory area, barrel field</text>
-<text transform='translate(45.94,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='96.93px' lengthAdjust='spacingAndGlyphs'>Primary somatosensory area, lower limb</text>
-<text transform='translate(49.32,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='87.47px' lengthAdjust='spacingAndGlyphs'>Primary somatosensory area, mouth</text>
-<text transform='translate(52.69,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='97.87px' lengthAdjust='spacingAndGlyphs'>Primary somatosensory area, upper limb</text>
-<text transform='translate(56.07,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='84.61px' lengthAdjust='spacingAndGlyphs'>Primary somatosensory area, trunk</text>
-<text transform='translate(59.44,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='83.59px' lengthAdjust='spacingAndGlyphs'>Supplemental somatosensory area</text>
-<text transform='translate(62.82,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='38.40px' lengthAdjust='spacingAndGlyphs'>Gustatory areas</text>
-<text transform='translate(66.19,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='31.05px' lengthAdjust='spacingAndGlyphs'>Visceral area</text>
-<text transform='translate(69.57,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='49.08px' lengthAdjust='spacingAndGlyphs'>Dorsal auditory area</text>
-<text transform='translate(72.94,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='52.25px' lengthAdjust='spacingAndGlyphs'>Primary auditory area</text>
-<text transform='translate(76.31,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='50.74px' lengthAdjust='spacingAndGlyphs'>Ventral auditory area</text>
-<text transform='translate(79.69,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='59.01px' lengthAdjust='spacingAndGlyphs'>Anterolateral visual area</text>
-<text transform='translate(83.06,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>Anteromedial visual area</text>
-<text transform='translate(86.44,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='44.40px' lengthAdjust='spacingAndGlyphs'>Lateral visual area</text>
-<text transform='translate(89.81,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='46.25px' lengthAdjust='spacingAndGlyphs'>Primary visual area</text>
-<text transform='translate(93.19,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='60.84px' lengthAdjust='spacingAndGlyphs'>Posterolateral visual area</text>
-<text transform='translate(96.56,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='62.09px' lengthAdjust='spacingAndGlyphs'>posteromedial visual area</text>
-<text transform='translate(99.94,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='84.43px' lengthAdjust='spacingAndGlyphs'>Anterior cingulate area, dorsal part</text>
-<text transform='translate(103.31,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='86.66px' lengthAdjust='spacingAndGlyphs'>Anterior cingulate area, ventral part</text>
-<text transform='translate(106.69,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='34.19px' lengthAdjust='spacingAndGlyphs'>Prelimbic area</text>
-<text transform='translate(110.06,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='37.61px' lengthAdjust='spacingAndGlyphs'>Infralimbic area</text>
-<text transform='translate(113.43,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='58.25px' lengthAdjust='spacingAndGlyphs'>Orbital area, lateral part</text>
-<text transform='translate(116.81,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='59.18px' lengthAdjust='spacingAndGlyphs'>Orbital area, medial part</text>
-<text transform='translate(120.18,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='59.85px' lengthAdjust='spacingAndGlyphs'>Orbital area, ventral part</text>
-<text transform='translate(123.56,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='82.58px' lengthAdjust='spacingAndGlyphs'>Agranular insular area, dorsal part</text>
-<text transform='translate(126.93,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='89.38px' lengthAdjust='spacingAndGlyphs'>Agranular insular area, posterior part</text>
-<text transform='translate(130.31,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='84.82px' lengthAdjust='spacingAndGlyphs'>Agranular insular area, ventral part</text>
-<text transform='translate(133.68,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='97.93px' lengthAdjust='spacingAndGlyphs'>Retrosplenial area, lateral agranular part</text>
-<text transform='translate(137.06,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='72.56px' lengthAdjust='spacingAndGlyphs'>Retrosplenial area, dorsal part</text>
-<text transform='translate(140.43,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='74.79px' lengthAdjust='spacingAndGlyphs'>Retrosplenial area, ventral part</text>
-<text transform='translate(143.81,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='65.15px' lengthAdjust='spacingAndGlyphs'>Temporal association areas</text>
-<text transform='translate(147.18,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='34.76px' lengthAdjust='spacingAndGlyphs'>Perirhinal area</text>
-<text transform='translate(150.55,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='36.26px' lengthAdjust='spacingAndGlyphs'>Ectorhinal area</text>
-<text transform='translate(153.93,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='46.10px' lengthAdjust='spacingAndGlyphs'>Main olfactory bulb</text>
-<text transform='translate(157.30,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='58.81px' lengthAdjust='spacingAndGlyphs'>Accessory olfactory bulb</text>
-<text transform='translate(160.68,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='62.09px' lengthAdjust='spacingAndGlyphs'>Anterior olfactory nucleus</text>
-<text transform='translate(164.05,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='29.15px' lengthAdjust='spacingAndGlyphs'>Taenia tecta</text>
-<text transform='translate(167.43,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='56.15px' lengthAdjust='spacingAndGlyphs'>Dorsal peduncular area</text>
-<text transform='translate(170.80,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='30.82px' lengthAdjust='spacingAndGlyphs'>Piriform area</text>
-<text transform='translate(174.18,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='86.98px' lengthAdjust='spacingAndGlyphs'>Nucleus of the lateral olfactory tract</text>
-<text transform='translate(177.55,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='57.83px' lengthAdjust='spacingAndGlyphs'>Cortical amygdalar area</text>
-<text transform='translate(180.92,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='58.26px' lengthAdjust='spacingAndGlyphs'>Piriform-amygdalar area</text>
-<text transform='translate(184.30,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='65.47px' lengthAdjust='spacingAndGlyphs'>Postpiriform transition area</text>
-<text transform='translate(187.67,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='22.28px' lengthAdjust='spacingAndGlyphs'>Field CA1</text>
-<text transform='translate(191.05,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='22.28px' lengthAdjust='spacingAndGlyphs'>Field CA2</text>
-<text transform='translate(194.42,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='22.28px' lengthAdjust='spacingAndGlyphs'>Field CA3</text>
-<text transform='translate(197.80,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='40.76px' lengthAdjust='spacingAndGlyphs'>Field CA1 ventral</text>
-<text transform='translate(201.17,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='40.76px' lengthAdjust='spacingAndGlyphs'>Field CA2 ventral</text>
-<text transform='translate(204.55,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='40.76px' lengthAdjust='spacingAndGlyphs'>Field CA3 ventral</text>
-<text transform='translate(207.92,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='34.25px' lengthAdjust='spacingAndGlyphs'>Dentate gyrus</text>
-<text transform='translate(211.30,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='52.73px' lengthAdjust='spacingAndGlyphs'>Dentate gyrus ventral</text>
-<text transform='translate(214.67,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='66.42px' lengthAdjust='spacingAndGlyphs'>Entorhinal area, lateral part</text>
-<text transform='translate(218.04,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='98.09px' lengthAdjust='spacingAndGlyphs'>Entorhinal area, medial part, dorsal zone</text>
-<text transform='translate(221.42,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='100.32px' lengthAdjust='spacingAndGlyphs'>Entorhinal area, medial part, ventral zone</text>
-<text transform='translate(224.79,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='35.16px' lengthAdjust='spacingAndGlyphs'>Parasubiculum</text>
-<text transform='translate(228.17,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='34.66px' lengthAdjust='spacingAndGlyphs'>Postsubiculum</text>
-<text transform='translate(231.54,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='32.26px' lengthAdjust='spacingAndGlyphs'>Presubiculum</text>
-<text transform='translate(234.92,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='25.18px' lengthAdjust='spacingAndGlyphs'>Subiculum</text>
-<text transform='translate(238.29,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='40.62px' lengthAdjust='spacingAndGlyphs'>Cortical subplate</text>
-<text transform='translate(241.67,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='61.60px' lengthAdjust='spacingAndGlyphs'>Amygdala (BLA, BMA, LA)</text>
-<text transform='translate(245.04,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='53.69px' lengthAdjust='spacingAndGlyphs'>Striatum dorsal region</text>
-<text transform='translate(248.42,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='55.92px' lengthAdjust='spacingAndGlyphs'>Striatum ventral region</text>
-<text transform='translate(251.79,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='54.70px' lengthAdjust='spacingAndGlyphs'>Lateral septal complex</text>
-<text transform='translate(255.16,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='73.81px' lengthAdjust='spacingAndGlyphs'>Striatum-like amygdalar nuclei</text>
-<text transform='translate(258.54,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='54.83px' lengthAdjust='spacingAndGlyphs'>Pallidum, dorsal region</text>
-<text transform='translate(261.91,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='57.06px' lengthAdjust='spacingAndGlyphs'>Pallidum, ventral region</text>
-<text transform='translate(265.29,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='56.38px' lengthAdjust='spacingAndGlyphs'>Pallidum, medial region</text>
-<text transform='translate(268.66,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='56.04px' lengthAdjust='spacingAndGlyphs'>Pallidum, caudal region</text>
-<text transform='translate(272.04,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='88.11px' lengthAdjust='spacingAndGlyphs'>Ventral group of the dorsal thalamus</text>
-<text transform='translate(275.41,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='82.89px' lengthAdjust='spacingAndGlyphs'>Geniculate group, dorsal thalamus</text>
-<text transform='translate(278.79,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='87.78px' lengthAdjust='spacingAndGlyphs'>Lateral group of the dorsal thalamus</text>
-<text transform='translate(282.16,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='90.45px' lengthAdjust='spacingAndGlyphs'>Anterior group of the dorsal thalamus</text>
-<text transform='translate(285.53,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='86.83px' lengthAdjust='spacingAndGlyphs'>Medial group of the dorsal thalamus</text>
-<text transform='translate(288.91,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='100.96px' lengthAdjust='spacingAndGlyphs'>Intralaminar nuclei of the dorsal thalamus</text>
-<text transform='translate(292.28,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='85.13px' lengthAdjust='spacingAndGlyphs'>Geniculate group, ventral thalamus</text>
-<text transform='translate(295.66,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='47.87px' lengthAdjust='spacingAndGlyphs'>Periventricular zone</text>
-<text transform='translate(299.03,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='51.60px' lengthAdjust='spacingAndGlyphs'>Periventricular region</text>
-<text transform='translate(302.41,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='63.95px' lengthAdjust='spacingAndGlyphs'>Hypothalamic medial zone</text>
-<text transform='translate(305.78,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='63.04px' lengthAdjust='spacingAndGlyphs'>Lateral hypothalamic area</text>
-<text transform='translate(309.16,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='61.11px' lengthAdjust='spacingAndGlyphs'>Midbrain, sensory related</text>
-<text transform='translate(312.53,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='56.77px' lengthAdjust='spacingAndGlyphs'>Midbrain, motor related</text>
-<text transform='translate(315.91,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='48.14px' lengthAdjust='spacingAndGlyphs'>Periaqueductal gray</text>
-<text transform='translate(319.28,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='37.93px' lengthAdjust='spacingAndGlyphs'>Pretectal region</text>
-<text transform='translate(322.65,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='81.37px' lengthAdjust='spacingAndGlyphs'>Midbrain, behavioral state related</text>
-<text transform='translate(326.03,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='51.46px' lengthAdjust='spacingAndGlyphs'>Pons, sensory related</text>
-<text transform='translate(329.40,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='47.12px' lengthAdjust='spacingAndGlyphs'>Pons, motor related</text>
-<text transform='translate(332.78,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='71.72px' lengthAdjust='spacingAndGlyphs'>Pons, behavioral state related</text>
-<text transform='translate(336.15,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.78px' lengthAdjust='spacingAndGlyphs'>Medulla</text>
-<text transform='translate(9.85,84.61) rotate(-90)' text-anchor='middle' style='font-size: 6.00px; font-family: Liberation Sans;' textLength='29.99px' lengthAdjust='spacingAndGlyphs'>Hedge's g</text>
+<text transform='translate(29.07,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='67.57px' lengthAdjust='spacingAndGlyphs'>Frontal pole, cerebral cortex</text>
+<text transform='translate(32.45,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='46.66px' lengthAdjust='spacingAndGlyphs'>Primary motor area</text>
+<text transform='translate(35.82,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='53.52px' lengthAdjust='spacingAndGlyphs'>Secondary motor area</text>
+<text transform='translate(39.19,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='83.33px' lengthAdjust='spacingAndGlyphs'>Primary somatosensory area, nose</text>
+<text transform='translate(42.57,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='97.80px' lengthAdjust='spacingAndGlyphs'>Primary somatosensory area, barrel field</text>
+<text transform='translate(45.94,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='96.93px' lengthAdjust='spacingAndGlyphs'>Primary somatosensory area, lower limb</text>
+<text transform='translate(49.32,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='87.47px' lengthAdjust='spacingAndGlyphs'>Primary somatosensory area, mouth</text>
+<text transform='translate(52.69,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='97.87px' lengthAdjust='spacingAndGlyphs'>Primary somatosensory area, upper limb</text>
+<text transform='translate(56.07,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='84.61px' lengthAdjust='spacingAndGlyphs'>Primary somatosensory area, trunk</text>
+<text transform='translate(59.44,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='83.59px' lengthAdjust='spacingAndGlyphs'>Supplemental somatosensory area</text>
+<text transform='translate(62.82,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='38.40px' lengthAdjust='spacingAndGlyphs'>Gustatory areas</text>
+<text transform='translate(66.19,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='31.05px' lengthAdjust='spacingAndGlyphs'>Visceral area</text>
+<text transform='translate(69.57,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='49.08px' lengthAdjust='spacingAndGlyphs'>Dorsal auditory area</text>
+<text transform='translate(72.94,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='52.25px' lengthAdjust='spacingAndGlyphs'>Primary auditory area</text>
+<text transform='translate(76.31,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='50.74px' lengthAdjust='spacingAndGlyphs'>Ventral auditory area</text>
+<text transform='translate(79.69,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='59.01px' lengthAdjust='spacingAndGlyphs'>Anterolateral visual area</text>
+<text transform='translate(83.06,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>Anteromedial visual area</text>
+<text transform='translate(86.44,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='44.40px' lengthAdjust='spacingAndGlyphs'>Lateral visual area</text>
+<text transform='translate(89.81,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='46.25px' lengthAdjust='spacingAndGlyphs'>Primary visual area</text>
+<text transform='translate(93.19,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='60.84px' lengthAdjust='spacingAndGlyphs'>Posterolateral visual area</text>
+<text transform='translate(96.56,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='62.09px' lengthAdjust='spacingAndGlyphs'>posteromedial visual area</text>
+<text transform='translate(99.94,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='84.43px' lengthAdjust='spacingAndGlyphs'>Anterior cingulate area, dorsal part</text>
+<text transform='translate(103.31,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='86.66px' lengthAdjust='spacingAndGlyphs'>Anterior cingulate area, ventral part</text>
+<text transform='translate(106.69,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='34.19px' lengthAdjust='spacingAndGlyphs'>Prelimbic area</text>
+<text transform='translate(110.06,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='37.61px' lengthAdjust='spacingAndGlyphs'>Infralimbic area</text>
+<text transform='translate(113.43,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='58.25px' lengthAdjust='spacingAndGlyphs'>Orbital area, lateral part</text>
+<text transform='translate(116.81,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='59.18px' lengthAdjust='spacingAndGlyphs'>Orbital area, medial part</text>
+<text transform='translate(120.18,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='59.85px' lengthAdjust='spacingAndGlyphs'>Orbital area, ventral part</text>
+<text transform='translate(123.56,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='82.58px' lengthAdjust='spacingAndGlyphs'>Agranular insular area, dorsal part</text>
+<text transform='translate(126.93,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='89.38px' lengthAdjust='spacingAndGlyphs'>Agranular insular area, posterior part</text>
+<text transform='translate(130.31,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='84.82px' lengthAdjust='spacingAndGlyphs'>Agranular insular area, ventral part</text>
+<text transform='translate(133.68,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='97.93px' lengthAdjust='spacingAndGlyphs'>Retrosplenial area, lateral agranular part</text>
+<text transform='translate(137.06,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='72.56px' lengthAdjust='spacingAndGlyphs'>Retrosplenial area, dorsal part</text>
+<text transform='translate(140.43,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='74.79px' lengthAdjust='spacingAndGlyphs'>Retrosplenial area, ventral part</text>
+<text transform='translate(143.81,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='65.15px' lengthAdjust='spacingAndGlyphs'>Temporal association areas</text>
+<text transform='translate(147.18,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='34.76px' lengthAdjust='spacingAndGlyphs'>Perirhinal area</text>
+<text transform='translate(150.55,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='36.26px' lengthAdjust='spacingAndGlyphs'>Ectorhinal area</text>
+<text transform='translate(153.93,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='46.10px' lengthAdjust='spacingAndGlyphs'>Main olfactory bulb</text>
+<text transform='translate(157.30,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='58.81px' lengthAdjust='spacingAndGlyphs'>Accessory olfactory bulb</text>
+<text transform='translate(160.68,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='62.09px' lengthAdjust='spacingAndGlyphs'>Anterior olfactory nucleus</text>
+<text transform='translate(164.05,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='29.15px' lengthAdjust='spacingAndGlyphs'>Taenia tecta</text>
+<text transform='translate(167.43,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='56.15px' lengthAdjust='spacingAndGlyphs'>Dorsal peduncular area</text>
+<text transform='translate(170.80,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='30.82px' lengthAdjust='spacingAndGlyphs'>Piriform area</text>
+<text transform='translate(174.18,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='86.98px' lengthAdjust='spacingAndGlyphs'>Nucleus of the lateral olfactory tract</text>
+<text transform='translate(177.55,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='57.83px' lengthAdjust='spacingAndGlyphs'>Cortical amygdalar area</text>
+<text transform='translate(180.92,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='58.26px' lengthAdjust='spacingAndGlyphs'>Piriform-amygdalar area</text>
+<text transform='translate(184.30,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='65.47px' lengthAdjust='spacingAndGlyphs'>Postpiriform transition area</text>
+<text transform='translate(187.67,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='22.28px' lengthAdjust='spacingAndGlyphs'>Field CA1</text>
+<text transform='translate(191.05,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='22.28px' lengthAdjust='spacingAndGlyphs'>Field CA2</text>
+<text transform='translate(194.42,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='22.28px' lengthAdjust='spacingAndGlyphs'>Field CA3</text>
+<text transform='translate(197.80,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='40.76px' lengthAdjust='spacingAndGlyphs'>Field CA1 ventral</text>
+<text transform='translate(201.17,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='40.76px' lengthAdjust='spacingAndGlyphs'>Field CA2 ventral</text>
+<text transform='translate(204.55,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='40.76px' lengthAdjust='spacingAndGlyphs'>Field CA3 ventral</text>
+<text transform='translate(207.92,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='34.25px' lengthAdjust='spacingAndGlyphs'>Dentate gyrus</text>
+<text transform='translate(211.30,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='52.73px' lengthAdjust='spacingAndGlyphs'>Dentate gyrus ventral</text>
+<text transform='translate(214.67,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='66.42px' lengthAdjust='spacingAndGlyphs'>Entorhinal area, lateral part</text>
+<text transform='translate(218.04,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='98.09px' lengthAdjust='spacingAndGlyphs'>Entorhinal area, medial part, dorsal zone</text>
+<text transform='translate(221.42,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='100.32px' lengthAdjust='spacingAndGlyphs'>Entorhinal area, medial part, ventral zone</text>
+<text transform='translate(224.79,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='35.16px' lengthAdjust='spacingAndGlyphs'>Parasubiculum</text>
+<text transform='translate(228.17,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='34.66px' lengthAdjust='spacingAndGlyphs'>Postsubiculum</text>
+<text transform='translate(231.54,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='32.26px' lengthAdjust='spacingAndGlyphs'>Presubiculum</text>
+<text transform='translate(234.92,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='25.18px' lengthAdjust='spacingAndGlyphs'>Subiculum</text>
+<text transform='translate(238.29,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='40.62px' lengthAdjust='spacingAndGlyphs'>Cortical subplate</text>
+<text transform='translate(241.67,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='61.60px' lengthAdjust='spacingAndGlyphs'>Amygdala (BLA, BMA, LA)</text>
+<text transform='translate(245.04,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='53.69px' lengthAdjust='spacingAndGlyphs'>Striatum dorsal region</text>
+<text transform='translate(248.42,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='55.92px' lengthAdjust='spacingAndGlyphs'>Striatum ventral region</text>
+<text transform='translate(251.79,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='54.70px' lengthAdjust='spacingAndGlyphs'>Lateral septal complex</text>
+<text transform='translate(255.16,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='73.81px' lengthAdjust='spacingAndGlyphs'>Striatum-like amygdalar nuclei</text>
+<text transform='translate(258.54,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='54.83px' lengthAdjust='spacingAndGlyphs'>Pallidum, dorsal region</text>
+<text transform='translate(261.91,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='57.06px' lengthAdjust='spacingAndGlyphs'>Pallidum, ventral region</text>
+<text transform='translate(265.29,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='56.38px' lengthAdjust='spacingAndGlyphs'>Pallidum, medial region</text>
+<text transform='translate(268.66,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='56.04px' lengthAdjust='spacingAndGlyphs'>Pallidum, caudal region</text>
+<text transform='translate(272.04,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='88.11px' lengthAdjust='spacingAndGlyphs'>Ventral group of the dorsal thalamus</text>
+<text transform='translate(275.41,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='82.89px' lengthAdjust='spacingAndGlyphs'>Geniculate group, dorsal thalamus</text>
+<text transform='translate(278.79,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='87.78px' lengthAdjust='spacingAndGlyphs'>Lateral group of the dorsal thalamus</text>
+<text transform='translate(282.16,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='90.45px' lengthAdjust='spacingAndGlyphs'>Anterior group of the dorsal thalamus</text>
+<text transform='translate(285.53,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='86.83px' lengthAdjust='spacingAndGlyphs'>Medial group of the dorsal thalamus</text>
+<text transform='translate(288.91,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='100.96px' lengthAdjust='spacingAndGlyphs'>Intralaminar nuclei of the dorsal thalamus</text>
+<text transform='translate(292.28,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='85.13px' lengthAdjust='spacingAndGlyphs'>Geniculate group, ventral thalamus</text>
+<text transform='translate(295.66,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='47.87px' lengthAdjust='spacingAndGlyphs'>Periventricular zone</text>
+<text transform='translate(299.03,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='51.60px' lengthAdjust='spacingAndGlyphs'>Periventricular region</text>
+<text transform='translate(302.41,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='63.95px' lengthAdjust='spacingAndGlyphs'>Hypothalamic medial zone</text>
+<text transform='translate(305.78,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='63.04px' lengthAdjust='spacingAndGlyphs'>Lateral hypothalamic area</text>
+<text transform='translate(309.16,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='61.11px' lengthAdjust='spacingAndGlyphs'>Midbrain, sensory related</text>
+<text transform='translate(312.53,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='56.77px' lengthAdjust='spacingAndGlyphs'>Midbrain, motor related</text>
+<text transform='translate(315.91,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='48.14px' lengthAdjust='spacingAndGlyphs'>Periaqueductal gray</text>
+<text transform='translate(319.28,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='37.93px' lengthAdjust='spacingAndGlyphs'>Pretectal region</text>
+<text transform='translate(322.65,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='81.37px' lengthAdjust='spacingAndGlyphs'>Midbrain, behavioral state related</text>
+<text transform='translate(326.03,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='51.46px' lengthAdjust='spacingAndGlyphs'>Pons, sensory related</text>
+<text transform='translate(329.40,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='47.12px' lengthAdjust='spacingAndGlyphs'>Pons, motor related</text>
+<text transform='translate(332.78,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='71.72px' lengthAdjust='spacingAndGlyphs'>Pons, behavioral state related</text>
+<text transform='translate(336.15,219.15) rotate(-90)' text-anchor='middle' style='font-size: 4.80px;fill: #4D4D4D; font-family: "DejaVu Sans";' textLength='18.78px' lengthAdjust='spacingAndGlyphs'>Medulla</text>
+<text transform='translate(9.85,84.61) rotate(-90)' text-anchor='middle' style='font-size: 6.00px; font-family: "DejaVu Sans";' textLength='29.99px' lengthAdjust='spacingAndGlyphs'>Hedge's g</text>
 </g>
 </svg>

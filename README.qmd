@@ -156,7 +156,7 @@ writeNIfTI(suc_img,'assets/nifti/post/post_suc_corr')
 ```r
 
 # read the roi and atlas file. 
-roi.list<-read_csv2('assets/script/Regions_IDs_split.csv', show_col_types = FALSE)
+roi.list<-read_csv('assets/script/Regions_IDs_split.csv', show_col_types = FALSE)
 pre_orig_raw<-read_csv('assets/orig_Marloes/pre_raw.csv', show_col_types = FALSE)
 peri_orig_raw<-read_csv('assets/orig_Marloes/peri_raw.csv', show_col_types = FALSE)
 post_orig_raw<-read_csv('assets/orig_Marloes/post_raw.csv', show_col_types = FALSE)
@@ -521,7 +521,7 @@ pal<-c('#44708fff','#ffffff','#c3834aff')
 thres<-0.8
 
 # read the roi and atlas file. 
-roi.list<-read_csv2('assets/script/Regions_IDs_split.csv', show_col_types = FALSE)
+roi.list<-read_csv('assets/script/Regions_IDs_split.csv', show_col_types = FALSE)
 pre_orig_raw<-read_csv('assets/orig_Marloes/pre_raw.csv', show_col_types = FALSE)
 peri_orig_raw<-read_csv('assets/orig_Marloes/peri_raw.csv', show_col_types = FALSE)
 post_orig_raw<-read_csv('assets/orig_Marloes/post_raw.csv', show_col_types = FALSE)
@@ -655,7 +655,7 @@ thr<-1
 
 
 # read the roi and atlas file. 
-roi.list<-read_csv2('assets/script/Regions_IDs_split.csv', show_col_types = FALSE)
+roi.list<-read_csv('assets/script/Regions_IDs_split.csv', show_col_types = FALSE)
 pre_orig_raw<-read_csv('assets/orig_Marloes/pre_raw.csv', show_col_types = FALSE)
 peri_orig_raw<-read_csv('assets/orig_Marloes/peri_raw.csv', show_col_types = FALSE)
 post_orig_raw<-read_csv('assets/orig_Marloes/post_raw.csv', show_col_types = FALSE)
@@ -764,7 +764,7 @@ d2.df$z[is.na(d2.df$z)]<-0
 
 p<-ggplot(data=d2.df,aes(x=x,y=y,fill=z))+
   geom_tile()+ scale_y_reverse()+  
-    scale_fill_gradientn(colors = pal)+theme_void()+theme(legend.position="none")
+    scale_fill_gradientn(colors = pal,  limits=c(-1,1))+theme_void()+theme(legend.position="none")
 ggsave('assets/figure/pre_corr_res.svg',plot=p,device = 'svg',units = 'mm',dpi = 300,width = 300, height = 300)
 
 # plot matrix pre ptsd
@@ -776,7 +776,7 @@ d2.df$z[is.na(d2.df$z)]<-0
 
 p<-ggplot(data=d2.df,aes(x=x,y=y,fill=z))+
   geom_tile()+ scale_y_reverse()+  
-    scale_fill_gradientn(colors = pal)+theme_void()+theme(legend.position="none")
+    scale_fill_gradientn(colors = pal, limits=c(-1,1))+theme_void()+theme(legend.position="none")
 ggsave('assets/figure/pre_corr_ptsd.svg',plot=p,device = 'svg',units = 'mm',dpi = 300,width = 300, height = 300)
 
 # plot matrix peri res
@@ -788,7 +788,7 @@ d2.df$z[is.na(d2.df$z)]<-0
 
 p<-ggplot(data=d2.df,aes(x=x,y=y,fill=z))+
   geom_tile()+ scale_y_reverse()+  
-    scale_fill_gradientn(colors = pal)+theme_void()+theme(legend.position="none")
+    scale_fill_gradientn(colors = pal, limits=c(-1,1))+theme_void()+theme(legend.position="none")
 ggsave('assets/figure/peri_corr_res.svg',plot=p,device = 'svg',units = 'mm',dpi = 300,width = 300, height = 300)
 
 # plot matrix peri ptsd
@@ -800,7 +800,7 @@ d2.df$z[is.na(d2.df$z)]<-0
 
 p<-ggplot(data=d2.df,aes(x=x,y=y,fill=z))+
   geom_tile()+ scale_y_reverse()+  
-    scale_fill_gradientn(colors = pal)+theme_void()+theme(legend.position="none")
+    scale_fill_gradientn(colors = pal, limits=c(-1,1))+theme_void()+theme(legend.position="none")
 ggsave('assets/figure/peri_corr_ptsd.svg',plot=p,device = 'svg',units = 'mm',dpi = 300,width = 300, height = 300)
 
 # plot matrix post res
@@ -812,7 +812,7 @@ d2.df$z[is.na(d2.df$z)]<-0
 
 p<-ggplot(data=d2.df,aes(x=x,y=y,fill=z))+
   geom_tile()+ scale_y_reverse()+  
-    scale_fill_gradientn(colors = pal)+theme_void()+theme(legend.position="none")
+    scale_fill_gradientn(colors = pal, limits=c(-1,1))+theme_void()+theme(legend.position="none")
 ggsave('assets/figure/post_corr_res.svg',plot=p,device = 'svg',units = 'mm',dpi = 300,width = 300, height = 300)
 
 # plot matrix post ptsd
@@ -824,7 +824,7 @@ d2.df$z[is.na(d2.df$z)]<-0
 
 p<-ggplot(data=d2.df,aes(x=x,y=y,fill=z))+
   geom_tile()+ scale_y_reverse()+  
-    scale_fill_gradientn(colors = pal)+theme_void()+theme(legend.position="none")
+    scale_fill_gradientn(colors = pal, limits=c(-1,1))+theme_void()+theme(legend.position="none")
 ggsave('assets/figure/post_corr_ptsd.svg',plot=p,device = 'svg',units = 'mm',dpi = 300,width = 300, height = 300)
 
 
@@ -840,7 +840,7 @@ d2.df$z[is.na(d2.df$z)]<-0
 
 p<-ggplot(data=d2.df,aes(x=x,y=y,fill=z))+
   geom_tile()+ scale_y_reverse()+  
-    scale_fill_gradientn(colors = pal)+theme_void()+theme(legend.position="none")
+    scale_fill_gradientn(colors = pal, limits=c(-1,1))+theme_void()+theme(legend.position="none")
 ggsave('assets/figure/pre_corr_diff.svg',plot=p,device = 'svg',units = 'mm',dpi = 300,width = 300, height = 300)
 
 # plot matrix difference peri
@@ -852,7 +852,7 @@ d2.df$z[is.na(d2.df$z)]<-0
 
 p<-ggplot(data=d2.df,aes(x=x,y=y,fill=z))+
   geom_tile()+ scale_y_reverse()+  
-    scale_fill_gradientn(colors = pal)+theme_void()+theme(legend.position="none")
+    scale_fill_gradientn(colors = pal, limits=c(-1,1))+theme_void()+theme(legend.position="none")
 ggsave('assets/figure/peri_corr_diff.svg',plot=p,device = 'svg',units = 'mm',dpi = 300,width = 300, height = 300)
 
 # plot matrix difference post
@@ -864,7 +864,7 @@ d2.df$z[is.na(d2.df$z)]<-0
 
 p<-ggplot(data=d2.df,aes(x=x,y=y,fill=z))+
   geom_tile()+ scale_y_reverse()+  
-    scale_fill_gradientn(colors = pal)+theme_void()+theme(legend.position="none")
+    scale_fill_gradientn(colors = pal, limits=c(-1,1))+theme_void()+theme(legend.position="none")
 ggsave('assets/figure/post_corr_diff.svg',plot=p,device = 'svg',units = 'mm',dpi = 300,width = 300, height = 300)
 
 
@@ -983,7 +983,7 @@ ggsave('assets/figure/res_roi_cor.svg',plot = p_res_plot,device='svg',units='mm'
 
 ```r
 
-roi.list<-read_csv2('assets/script/Regions_IDs_split.csv', show_col_types = FALSE)
+roi.list<-read_csv('assets/script/Regions_IDs_split.csv', show_col_types = FALSE)
 pre_orig_raw<-read_csv('assets/orig_Marloes/pre_raw.csv', show_col_types = FALSE)
 peri_orig_raw<-read_csv('assets/orig_Marloes/peri_raw.csv', show_col_types = FALSE)
 post_orig_raw<-read_csv('assets/orig_Marloes/post_raw.csv', show_col_types = FALSE)
