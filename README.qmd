@@ -397,6 +397,8 @@ cbindX(tibble('Resilient'=post_g$V1[post_g$Group=='Resilient']),tibble('Suscepti
 
 
 ```
+
+
 # Figure 3AB
 ### perform interaction effect betwee pre and peri.  (to be completed)
 ```r
@@ -519,6 +521,129 @@ p_peripre_ptsd_plot<- p_peripre_ptsd+geom_bar(stat = 'identity')+scale_fill_manu
  ggsave('assets/figure/peri_pre_ptsd_roi.svg',plot = p_peripre_ptsd_plot,device='svg',units='mm', dpi=300, width=120, height=100)
  
 ```
+# Figure 3-revision
+### perform interaction effect betwee pre and peri.  (to be completed)
+```r
+library(effectsize)
+library(multcomp)
+library(parameters)
+
+pre_orig_cluster_cormeansd <- read_csv('assets/table/pre_roi_cluster.csv', show_col_types = FALSE) 
+peri_orig_cluster_cormeansd <- read_csv('assets/table/peri_roi_cluster.csv', show_col_types = FALSE) 
+post_orig_cluster_cormeansd <- read_csv('assets/table/post_roi_cluster.csv', show_col_types = FALSE) 
+
+#load design matrices
+pre_design <- read_csv('assets/nifti/pre/design.csv', show_col_types = FALSE) %>% rename('ID'=`Animal ID`)
+peri_design <- read_csv('assets/nifti/peri/design.csv', show_col_types = FALSE) %>% rename('ID'='Brain')
+post_design <- read_csv('assets/nifti/post/design.csv', show_col_types = FALSE) %>% rename('ID'='Brain')
+
+
+cluster<-read_csv2('assets/script/roi_cluster_march22.csv', show_col_types = FALSE)
+
+# cluster the cell counts. 
+
+#adding peripre tests to address email of 29/8/2024
+cluster_unique<-unique(cluster$Name) %>% as_tibble() %>% rename('name'='value') %>% add_column(stress=NA,stress_L=NA, stress_U=NA, inter=NA, inter_L=NA, inter_U=NA, peripre_res=NA, peripre_res_L=NA, peripre_res_U=NA, peripre_ptsd=NA, peripre_ptsd_L=NA, peripre_ptsd_U=NA)
+
+for(i in 1:dim(cluster_unique)[1]){
+
+      pre_array<-pre_orig_cluster_cormeansd[i,-1] %>% t() %>% as.data.frame() %>% drop_na()
+      peri_array<-peri_orig_cluster_cormeansd[i,-1] %>% t() %>% as.data.frame() %>% drop_na()
+      post_array<-post_orig_cluster_cormeansd[i,-1] %>% t() %>% as.data.frame() %>% drop_na()
+      
+      if(sum(pre_array$V1==0)!=length(pre_array$V1) & sum(peri_array$V1==0)!=length(peri_array$V1) & sum(post_array$V1==0)!=length(post_array$V1)){
+        pre_array$ID<-rownames(pre_array)
+        pre_array<-merge(pre_array,pre_design,'ID') %>% mutate(Condition='pre') %>% dplyr::select(V1,Group,Condition) 
+        
+        peri_array$ID<-rownames(peri_array)
+        peri_array<-merge(peri_array,peri_design,'ID')  %>% mutate(Condition='peri') %>% dplyr::select(V1,Group,Condition) 
+        
+        post_array$ID<-rownames(post_array)
+        post_array<-merge(post_array,post_design,'ID') %>% mutate(Condition='post') %>% dplyr::select(V1,Group,Condition) 
+
+        # merge the three dataframes
+        #df<-rbind(pre_array,peri_array) %>% unite(Condition_group,c(Condition,Group)) %>% mutate(Condition_group=as.factor(Condition_group))
+        df<-rbind(pre_array,post_array) %>% mutate(Condition=as.factor(Condition), Group=as.factor(Group))
+
+
+        #mod<-lm(V1~Condition_group, data=df)
+        #K <- rbind(c( 1, 1, -1, -1), 
+        #            c(1,  -1,  -1, 1)) 
+
+        #top <- glht(mod, linfct = mcp(Condition_group = K))  %>% confint(level=0.9)
+
+        mod<-lm(V1~Condition*Group, data=df)
+        model_parameters <- model_parameters(mod, standardize = 'refit',ci=0.9)
+
+        #cluster_unique$stress[i]<-top$confint[1,1]
+        #cluster_unique$stress_L[i]<-top$confint[1,2]
+        #cluster_unique$stress_U[i]<-top$confint[1,3]
+
+        #cluster_unique$inter[i]<-top$confint[2,1]
+        #cluster_unique$inter_L[i]<-top$confint[2,2]
+        #cluster_unique$inter_U[i]<-top$confint[2,3]
+
+        cluster_unique$stress[i]<-model_parameters$Coefficient[2]
+        cluster_unique$stress_L[i]<-model_parameters$CI_low[2]
+        cluster_unique$stress_U[i]<-model_parameters$CI_high[2]
+
+        cluster_unique$inter[i]<-model_parameters$Coefficient[4]
+        cluster_unique$inter_L[i]<-model_parameters$CI_low[4]
+        cluster_unique$inter_U[i]<-model_parameters$CI_high[4]
+        
+        g <- hedges_g(df$V1[df$Condition=='post' & df$Group=='Resilient'], df$V1[df$Condition=='pre' & df$Group=='Resilient'])
+        cluster_unique$postpre_res[i]<-g$Hedges_g
+        cluster_unique$postpre_res_L[i]<-g$CI_low
+        cluster_unique$postpre_res_U[i]<-g$CI_high
+
+        g <- hedges_g(df$V1[df$Condition=='post' & df$Group=='PTSD-like'], df$V1[df$Condition=='pre' & df$Group=='PTSD-like'])
+        cluster_unique$postpre_ptsd[i]<-g$Hedges_g
+        cluster_unique$postpre_ptsd_L[i]<-g$CI_low
+        cluster_unique$postpre_ptsd_U[i]<-g$CI_high
+
+
+      }
+}
+
+
+cluster_unique %>% write_csv('assets/table/roi_cluster_interaction_postpre.csv') 
+
+cluster_unique$name <- factor(cluster_unique$name, levels = cluster_unique$name)
+
+cluster_unique$stress_thr<-ifelse((cluster_unique$stress_L > 0 & cluster_unique$stress_U > 0) | (cluster_unique$stress_L < 0 & cluster_unique$stress_U < 0),1,0.5)
+cluster_unique$inter_thr<-ifelse((cluster_unique$inter_L > 0 & cluster_unique$inter_U > 0) | (cluster_unique$inter_L < 0 & cluster_unique$inter_U < 0),1,0.5)
+
+p_stress<-ggplot(cluster_unique,aes(x=name,y=stress,alpha=stress_thr,fill=as.factor(sign(stress))))
+p_stress_plot<- p_stress+geom_bar(stat = 'identity')+scale_fill_manual(values=c("1"="#c3834aff","-1"="#44708fff"))+ylim(-1.7,1.7)+theme_classic()+ theme(legend.position = "none")+
+  theme(text=element_text(size=6),axis.text.x = element_text(angle = 90 ))+labs(x='',y=bquote(Post > Pre))
+ 
+ ggsave('assets/figure/stress_roi_all_postpre.svg',plot = p_stress_plot,device='svg',units='mm', dpi=300, width=120, height=100)
+ 
+ p_inter<-ggplot(cluster_unique,aes(x=name,y=inter,alpha=inter_thr,fill=as.factor(sign(inter))))
+p_inter_plot<- p_inter+geom_bar(stat = 'identity')+scale_fill_manual(values=c("1"="#c3834aff","-1"="#44708fff"))+ylim(-1.7,1.7)+theme_classic()+ theme(legend.position = "none")+
+  theme(text=element_text(size=6),axis.text.x = element_text(angle = 90 ))+labs(x='',y=bquote("Post-PTSD - pre-PTSD > Post-res - Pre-res"))
+ 
+ ggsave('assets/figure/inter_roi_all_postpre.svg',plot = p_inter_plot,device='svg',units='mm', dpi=300, width=120, height=100)
+
+
+cluster_unique$postpre_res_thr<-ifelse((cluster_unique$postpre_res_L > 0 & cluster_unique$postpre_res_U > 0) | (cluster_unique$postpre_res_L < 0 & cluster_unique$postpre_res_U < 0),1,0.5)
+
+p_postpre_res<-ggplot(cluster_unique,aes(x=name,y=postpre_res,alpha=postpre_res_thr,fill=as.factor(sign(postpre_res))))
+p_postpre_res_plot<- p_postpre_res+geom_bar(stat = 'identity')+scale_fill_manual(values=c("1"="#c3834aff","-1"="#44708fff"))+ylim(-5,5)+theme_classic()+ theme(legend.position = "none")+
+  theme(text=element_text(size=6),axis.text.x = element_text(angle = 90 ))+labs(x='',y=bquote(Post_res > Pre_res))
+ 
+ ggsave('assets/figure/post_pre_resilient_roi.svg',plot = p_postpre_res_plot,device='svg',units='mm', dpi=300, width=120, height=100)
+
+cluster_unique$postpre_ptsd_thr<-ifelse((cluster_unique$postpre_ptsd_L > 0 & cluster_unique$postpre_ptsd_U > 0) | (cluster_unique$postpre_ptsd_L < 0 & cluster_unique$postpre_ptsd_U < 0),1,0.5)
+
+p_postpre_ptsd<-ggplot(cluster_unique,aes(x=name,y=postpre_ptsd,alpha=postpre_ptsd_thr,fill=as.factor(sign(postpre_ptsd))))
+p_postpre_ptsd_plot<- p_postpre_ptsd+geom_bar(stat = 'identity')+scale_fill_manual(values=c("1"="#c3834aff","-1"="#44708fff"))+ylim(-5,5)+theme_classic()+ theme(legend.position = "none")+
+  theme(text=element_text(size=6),axis.text.x = element_text(angle = 90 ))+labs(x='',y=bquote(Post_ptsd > Pre_ptsd))
+ 
+ ggsave('assets/figure/post_pre_ptsd_roi.svg',plot = p_postpre_ptsd_plot,device='svg',units='mm', dpi=300, width=120, height=100)
+ 
+```
+
 
 #Figure S3
 ### plot ROI grouped by network 
