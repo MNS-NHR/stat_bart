@@ -35,6 +35,7 @@ sessionInfo()
 ```
 
 
+# Figure S2A
 ## Pre condition
 ```r 
 
@@ -72,7 +73,7 @@ writeNIfTI(res_img,'assets/nifti/pre/pre_res_corr')
 writeNIfTI(suc_img,'assets/nifti/pre/pre_suc_corr')
 
 ```
-
+# Figure S2B
 ## Peri condition
 ```r
 
@@ -112,7 +113,7 @@ writeNIfTI(res_img,'assets/nifti/peri/peri_res_corr')
 writeNIfTI(suc_img,'assets/nifti/peri/peri_suc_corr')
 
 ```
-
+#Figure S2C
 ## Post condition
 ```r
 
@@ -152,7 +153,6 @@ writeNIfTI(suc_img,'assets/nifti/post/post_suc_corr')
 ```
 
 ## ROI wise clustering 
-
 ```r
 
 # read the roi and atlas file. 
@@ -177,6 +177,12 @@ post_orig_cluster <- post_orig_raw[0,] %>% select(-id, -structure_order, -parent
 pre_orig_cormean<-pre_orig_raw %>% select(-id, -structure_order, -parent_id,-name) %>% mapply("/", ., colSums(.)) %>% as.tibble()   %>% mutate(name=pre_orig_raw$name)
 peri_orig_cormean<-peri_orig_raw %>% select(-id, -structure_order, -parent_id,-name) %>% mapply("/", ., colSums(.)) %>% as.tibble()   %>% mutate(name=pre_orig_raw$name)
 post_orig_cormean<-post_orig_raw %>% select(-id, -structure_order, -parent_id,-name) %>% mapply("/", ., colSums(.)) %>% as.tibble()   %>% mutate(name=pre_orig_raw$name)
+
+# do not apply correction of the mean across ROI
+#pre_orig_cormean<-pre_orig_raw %>% select(-id, -structure_order, -parent_id,-name) %>%  as.tibble()   %>% mutate(name=pre_orig_raw$name)
+#peri_orig_cormean<-peri_orig_raw %>% select(-id, -structure_order, -parent_id,-name) %>%  as.tibble()   %>% mutate(name=pre_orig_raw$name)
+#post_orig_cormean<-post_orig_raw %>% select(-id, -structure_order, -parent_id,-name) %>% as.tibble()   %>% mutate(name=pre_orig_raw$name)
+
 
 
 #addressing email of 29/8/2024
@@ -253,7 +259,7 @@ peri_orig_cluster %>% write_csv('assets/table/peri_roi_cluster.csv')
 post_orig_cluster %>% write_csv('assets/table/post_roi_cluster.csv') 
 
 ```
-
+# Figure 2ABC
 ## plot the Hedges'g for each ROI cluster and for each condition
 ```r 
 
@@ -340,8 +346,8 @@ p_post_plot<- p_post+geom_bar(stat = 'identity')+scale_fill_manual(values=c("1"=
  ggsave('assets/figure/post_roi_all.svg',plot = p_post_plot,device='svg',units='mm', dpi=300, width=120, height=100)
 ```
 
-
-# Show selected ROI using garner plots 
+# Figure 2CD
+## Show selected ROI using garner plots 
 
 ```{r}
 
@@ -391,7 +397,7 @@ cbindX(tibble('Resilient'=post_g$V1[post_g$Group=='Resilient']),tibble('Suscepti
 
 
 ```
-
+# Figure 3AB
 ### perform interaction effect betwee pre and peri.  (to be completed)
 ```r
 library(effectsize)
@@ -514,7 +520,7 @@ p_peripre_ptsd_plot<- p_peripre_ptsd+geom_bar(stat = 'identity')+scale_fill_manu
  
 ```
 
-
+#Figure S3
 ### plot ROI grouped by network 
 ```r
 pal<-c('#44708fff','#ffffff','#c3834aff')
@@ -615,9 +621,9 @@ cluster_unique$Name <- factor(cluster_unique$Name, levels = cluster_unique$Name)
 
 
 # uncomment if you want threshold-based alpha in the plots.
-cluster_unique$pre_thr<-ifelse(abs(cluster_unique$pre)>thres,1,0.5)
-cluster_unique$peri_thr<-ifelse(abs(cluster_unique$peri)>thres,1,0.5)
-cluster_unique$post_thr<-ifelse(abs(cluster_unique$post)>thres,1,0.5)
+#cluster_unique$pre_thr<-ifelse(abs(cluster_unique$pre)>thres,1,0.5)
+#cluster_unique$peri_thr<-ifelse(abs(cluster_unique$peri)>thres,1,0.5)
+#cluster_unique$post_thr<-ifelse(abs(cluster_unique$post)>thres,1,0.5)
 
 # uncomment if you want alpha in plots based on CI
 cluster_unique$pre_thr<-ifelse((cluster_unique$pre_L > 0 & cluster_unique$pre_U > 0) | (cluster_unique$pre_L < 0 & cluster_unique$pre_U < 0),1,0.5)
@@ -646,7 +652,7 @@ p_post_plot<- p_post+geom_bar(stat = 'identity')+scale_fill_manual(values=c("1"=
 
 
 
-
+# Figure 4B
 # Network analysis 
 ```r 
 
@@ -940,9 +946,9 @@ for(i in 1:length(unique(d2.pre_res$networkpair))){
 }
 
 thres<-0.4
-cor.df$pre_thr<-ifelse(abs(cor.df$pre_g)>thres,1,0.5)
-cor.df$peri_thr<-ifelse(abs(cor.df$peri_g)>thres,1,0.5)
-cor.df$post_thr<-ifelse(abs(cor.df$post_g)>thres,1,0.5)
+#cor.df$pre_thr<-ifelse(abs(cor.df$pre_g)>thres,1,0.5)
+#cor.df$peri_thr<-ifelse(abs(cor.df$peri_g)>thres,1,0.5)
+#cor.df$post_thr<-ifelse(abs(cor.df$post_g)>thres,1,0.5)
 
 # uncomment if you want alpha in plots based on CI
 cor.df$pre_thr<-ifelse((cor.df$pre_L > 0 & cor.df$pre_U > 0) | (cor.df$pre_L < 0 & cor.df$pre_U < 0),1,0.5)
